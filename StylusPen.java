@@ -1,0 +1,9 @@
+class StylusPen{
+public static void main(String args[]){
+System.out.println("About this item");
+System.out.println(" Unlike other older models where it takes hours to be fully charged, our pencil for ipad has a new, improved battery that allows up to 8 hours of writing and drawing time on a full charge in 15 minutes. It also attaches to the side of your iPad so you can't lose it");
+System.out.println("This pencil for ipad 9 generation supports palm rejection, tilt and replaceable leads. No Bluetooth or app connection is required. Simply tap the top button and use the pen to write, draw, mark, sign and note directly on the iPad. It turns off automatically after 5-10 minutes of inactivity to save power.");
+System.out.println("With a 1.5 mm thick POM tip, this pen for ipad 10 generation is highly conductive and abrasion resistant and reduces the resistance between the tip and the touch screen, without delays, shifts or breaks – just like a pen writing on paper. It also has an energy indicator where all 3 lights for a power level of 70% to full, two lights for a power level of 30% to 70% and a light for a power level of 5% to 30%.");
+System.out.println("1 x hatoku pencil 1st generation, 3 x replaceable pen tips,1 x type-c charging cable,1 x user manual. We offer 24/7 online support and 1 year warranty from purchase date.Our goal is to make all our customers satisfied. If you have any questions about our hatoku pencil, we will make sure you refund or replacement.");
+System.out.println("The pencil for ipad is compatible with ipad 9.7 and 10.2(6/7/8/9/10 generation), ipad Air M2/3/4/5 generation, ipad Mini (5/6 generation), ipad pro 11 M4/1/2/3/4 generation, 13 M4 and 12.9(3/4/5/6 generation). Please note: Not work for ipad pro 12.9 1st/2nd gen, ipad pro 10.5/9.7, ipad 1/2/3/4/5 generation, ipad mini 1/2/3/4 and 7 gen, ipad air 1st/2nd.");
+}}

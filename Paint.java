@@ -1,0 +1,9 @@
+class Paint{
+public static void main (String args[]){
+System.out.println("About this item");
+System.out.println("This art acrylic painting kit comes with 36-pack, 2 oz / 59ml bottles in the classic colors set fire to your imagination. Premium acrylic paint kit features smooth, highly pigmented color to produce true, consistent shades.");
+System.out.println(" Premium paints glide on smoothly, dry quickly and stay as beautiful as the day they were painted. Whether you’re new to acrylic painting or a seasoned artist, the paint kit will set fire to your imagination. Great acrylic paint for canvas painting, halloween decorations, pumpkin painting. The craft paint set is great to produce true, consistent shades on painting art, ideal for professional artists, young aspiring artists, painting lovers, students and kids.");
+System.out.println("No need to worry about toxicity with our acrylic paint. The acrylic water-based non-toxic paint is Safe for all ages. The creamy consistency and high pigments offer great covering power for large areas and fine details. Blend easily and dry quickly. The fast-dry formula allows you to layer additional coats or add other elements to your work right away. Easy clean up with soap and water.");
+System.out.println("Caliart acrylic paints are versatile in canvas art, painting, scrap booking, Christmas, Halloween decorations and more. Suitable for most surfaces, including canvas, wood, rocks, painting pumpkins, stretched canvas, fabrics, stone, metal, plastic, ceramics, decorative wall, blackboard, paper, plaster. Great gift for creative adults, artists, beginners, students, kids, teens, boys and girls. Packed in a sturdy box for keeping always organized and accessible.");
+System.out.println("We're sure you'll love using our acrylic paint supplies for arts crafts & DIY paint projects, but if you have any problems with the art kit set, just let us know for a fast, no-hassle refund or product free replacement.");
+}}

@@ -1,0 +1,11 @@
+class SketchBook{
+public static void main(String args[]){
+System.out.println("About the item");
+System.out.println(" Dive into our premium Sketch Pad, explicitly designed for both budding and seasoned artists. Measuring at 9x12 inches, each pad contains 100 finely-textured sheets that cater to various artistic needs. Whether you're exploring the world of art with a sketch book for adult indulging in intricate designs with sketch pads for adults, this is your basic companion.");
+System.out.println("In the realm of drawing paper pads, our hardcover sketch book boasts acid-free, PH-neutral paper that distinctly stands out. Sized perfectly as a 9 x 12 sketchbook, it weighs a robust 68lb/100gsm, proving thicker and more resilient. For artists who favor a top spiral sketchbook, ours ensures no bleed-through, smudging, or feathering.");
+System.out.println("For aficionados of drawing paper pad artistry, our artist sketch pad has been meticulously crafted to support all dry media – be it pencils, charcoal, crayons, pastels. Sized perfectly as a sketch pad 9x12, it's suitable for those who seek an art sketch book that effortlessly bridges versatility with quality. While it's suited for sketch pads for drawing adults, take note: It's not intended for markers or watercolor pens.");
+System.out.println("Sufly drawing paper pad serving as one of the most sought-after drawing pads for artists, the top spiral binding is inclusive. As an art pad, it uniquely combines. When laid open, this art drawing pad lies flat. Beyond its robust art paper quality, the sturdy cardstock cover and backboard ensure protection. For those looking into art pads for drawing and painting, the added advantage lies in its micro-perforated pages, allowing for effortless detachment.");
+System.out.println("Whether you're a novice or pro, our drawing book bridges the gap. Serving as a premier drawing sketchbook, it caters to every artistic endeavor. Beyond a mere drawing notebook, it offers top-notch sketch paper for drawing. Great for gifting, and committed to ensuring your satisfaction,reach out to us for assistance with any issues.");
+
+
+}}
