@@ -1,20 +1,20 @@
 class FaceBook{
 
-public static String registration(String firstName,String lastName){
+public static String userLogin(String email, String password){
 
-	String messages = null;
+String logIn = null;
 
-	if (firstName!=null && lastName!=null){
-	
-	messages= "registration successfull";
-
-}
-else{
-
-	messages= "registration failed ";
-
+if(email != null && password.length() >= 5)
+	logIn = "LogIn Successful";
+	return logIn;
 }
 
-return messages;
+public static String userLogin(long phoneNumber , String password){
+
+String logInUser = null;
+
+if( phoneNumber != 0.0 && password.length() >= 5)
+	logInUser = "LogIn Successful";
+	return logInUser;
 }
 }

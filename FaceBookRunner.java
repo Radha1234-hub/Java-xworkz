@@ -1,11 +1,11 @@
 class FaceBookRunner{
-	
-	static String firstName;
-	static String lastName;
 
-public static void main(String a[]){
+public static void main(String face[]){
 
-	FaceBook.registration(Radha, Nagaraj);
-	System.out.println(messages);
-	}
+String message = FaceBook.userLogin("radha@gmail.com","radhai5678");
+System.out.println(message);
+
+String ref = FaceBook.userLogin(5618726789L,"radhai5678");
+System.out.println(ref);
+}
 }
