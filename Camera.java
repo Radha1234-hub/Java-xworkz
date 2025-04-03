@@ -1,68 +1,22 @@
 class Camera{
-
-	
-	static String itemName= "Camera";
-	static int itemId = 11;
-	static String brand= "EMEET";
-	static String photoSensorTechnology = "CMOS";
-	static String videoCaptureResolution= "1080p";
-	static String maximumFocalLength	= "1200 Millimeters";
-	
 public static void main (String args[]){
+	String itemName= "Camera";
+	int itemId = 11;
+	String brand= "EMEET";
+	String photoSensorTechnology = "CMOS";
+	String videoCaptureResolution= "1080p";
+	String maximumFocalLength	= "1200 Millimeters";
+	String maximumAperture= "2.8 f";
+	String flashMemoryType ="Memory Stick";
+	String videoCaptureFormat="AVI";
 	
-	System.out.println("Main started");
-	
-	
-	//item name
-	System.out.println("The item's name before re-initialization is:"+itemName);
-	itemName= "Camara";
-	System.out.println("The item's name after re-initialization is:"+itemName);
-	
-	//item id
-	System.out.println("The item's Id before re-initialization is :"+itemId);
-	itemId = 21;
-	System.out.println("The item's Id before re-initialization is :"+itemId);
-	
-	//brand
-	System.out.println("The item's brand name before re-initialization is:"+brand);
-	brand= "EME";
-	System.out.println("The item's brand name after re-initialization is:"+brand);
-	
-	
-	//technology
-	System.out.println("The item's photo Sensor Technology before re-initialization  is :"+photoSensorTechnology);
-	photoSensorTechnology = "CCD ";
-	System.out.println("The item's photo Sensor Technology after re-initialization is :"+photoSensorTechnology);
-	
-	//resolution
-	System.out.println("The item's video Capture Resolution before re-initialization is:"+videoCaptureResolution);
-	videoCaptureResolution= "640 x 480 pixels";
-	System.out.println("The item's video Capture Resolution after re-initialization is:"+videoCaptureResolution);
-	
-update();
-
-
-	System.out.println("The item's name after re-initialization is:"+itemName);
-	System.out.println("The item's Id before re-initialization is :"+itemId);
-	System.out.println("The item's brand name after re-initialization is:"+brand);
-	System.out.println("The item's photo Sensor Technology after re-initialization is :"+photoSensorTechnology);
-	System.out.println("The item's video Capture Resolution after re-initialization is:"+videoCaptureResolution);
-	
-
-	System.out.println("Main ended");
-	
-}
-
-public static void update(){
-itemName= "Camara";
-itemId = 21;
-brand= "EME";
-photoSensorTechnology = "CCD ";
-videoCaptureResolution= "640 x 480 pixels";
-
-
-
-}
-
-
-}
+	System.out.println("The item's name is:"+itemName);
+	System.out.println("The item's Id is :"+itemId);
+	System.out.println("The item's brand name is:"+brand);
+	System.out.println("The item's photo Sensor Technology is :"+photoSensorTechnology);
+	System.out.println("The item's video Capture Resolution is:"+videoCaptureResolution);
+	System.out.println("The item's maximum Focal Length is :"+maximumFocalLength);
+	System.out.println("The item's maximum Aperture is:"+maximumAperture);
+	System.out.println("The item's flash MemoryType is :"+flashMemoryType);
+	System.out.println("The item's video Capture Format is:"+videoCaptureFormat);
+}}

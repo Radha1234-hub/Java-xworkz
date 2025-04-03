@@ -1,61 +1,20 @@
 class Blub{
-
-	static String itemName= "Blub";
-	static int itemId = 8;
-	static String brand = "OREiN";
-	static String lightType= "LED";
-	static String wattage="9 watts";
-	
-	
 public static void main (String args[]){
+	String itemName= "Blub";
+	int itemId = 8;
+	String brand = "OREiN";
+	String lightType= "LED";
+	String specialFeature= "Energy Efficient, Matter, Eye-Friendly, Flicker-Free, Color Changing";
+	String wattage="9 watts";
+	String bulbShapeSize= "A19";
 	
-	System.out.println("Main started");
-	
-	
-	//itemName
-	System.out.println("The item's name before re-initialization is:"+itemName);
-	String itemName= "light";
-	System.out.println("The item's name after re-initialization is:"+itemName);
-	
-	//itemid
-	System.out.println("The item's Id before re-initialization is :"+itemId);
-	int itemId = 9;
-	System.out.println("The item's Id after re-initialization is :"+itemId);
-	
-	//brand
-	System.out.println("The item's brand name before re-initialization is:"+brand);
-	String brand = "Philips";
-	System.out.println("The item's brand name after re-initialization is:"+brand);
-	
-	//lighttype
-	System.out.println("The item's light Type before re-initialization is :"+lightType);
-	String lightType= "serial";
-	System.out.println("The item's light Type before re-initialization is :"+lightType);
-	
-	//wattage
-	System.out.println("The item's wattage before re-initialization is :"+wattage);
-	String wattage="12 watts";
-	System.out.println("The item's wattage after re-initialization is :"+wattage);
-	
-	
-	update();
-	
-	System.out.println("The item's name after re-initialization is:"+itemName);
-	System.out.println("The item's Id after re-initialization is :"+itemId);
-	System.out.println("The item's brand name after re-initialization is:"+brand);
-	System.out.println("The item's light Type before re-initialization is :"+lightType);
-	System.out.println("The item's wattage after re-initialization is :"+wattage);
-	
-	
-	System.out.println("Main ended");
+	System.out.println("The item's name is:"+itemName);
+	System.out.println("The item's Id is :"+itemId);
+	System.out.println("The item's brand name is:"+brand);
+	System.out.println("The item's light Type is :"+lightType);
+	System.out.println("The item's special Feature is:"+specialFeature);
+	System.out.println("The item's wattage is :"+wattage);
+	System.out.println("The item's bulb Shape Size is:"+bulbShapeSize);
 
-}
-
-public static void update(){
-	itemName= "light";
-	itemId = 9;
-	brand = "Philips";
-	lightType= "serial";
-	wattage="12 watts";
 }
 }
