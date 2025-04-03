@@ -1,35 +1,51 @@
-class Calculator {
+class Calculator{
 
-	static int firstNumber = 69;
-	static int secondNumber = 90;
+public static int addition(int firstNumber , int secondNumber){
 
+	int total = firstNumber+secondNumber;
 	
-	public static void main(String args[]){
+	return total;
+}
+
+
+
+public static int subraction(int firstNumber ,int secondNumber){
 	
-		System.out.println("Main started");
+	int total = firstNumber - secondNumber;
+	
+	return total;
 		
-		add(firstNumber , secondNumber);
-		
-		System.out.println("Main ended");
-	
-	
-	
-	
-	
 	}
 
-
-	public static void add(int firstNumber , int secondNumber){
+public static int multiplication(int firstNumber , int secondNumber){
+	
+	int total = firstNumber * secondNumber;
+	
+	return total;
 		
-		System.out.println(firstNumber+secondNumber);
 	
+}
+
+public static int division(int firstNumber , int secondNumber){
+	int total = firstNumber / secondNumber;
 	
-	}
+	return total;
+}
 
+public static int modulus(int firstNumber , int secondNumber){
+	int total = firstNumber%secondNumber;
 
-
-
-
-
+	return total;
+}
 
 }
+
+
+
+
+
+
+
+
+
+
