@@ -1,20 +1,15 @@
-class FaceBook{
+class Facebook{
 
-public static String userLogin(String email, String password){
+	int id;
+	String firstName;
+	String lastName;
+	char gender;
+	String dob;
+	
+	Facebook(){
+	
+		System.out.println("The constructor Facebook is invoked");
+	
+	}
 
-String logIn = null;
-
-if(email != null && password.length() >= 5)
-	logIn = "LogIn Successful";
-	return logIn;
-}
-
-public static String userLogin(long phoneNumber , String password){
-
-String logInUser = null;
-
-if( phoneNumber != 0.0 && password.length() >= 5)
-	logInUser = "LogIn Successful";
-	return logInUser;
-}
 }
