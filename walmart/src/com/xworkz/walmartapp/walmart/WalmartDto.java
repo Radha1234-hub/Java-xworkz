@@ -2,12 +2,12 @@ package com.xworkz.walmartapp.walmart;
 
 public class WalmartDto {
 
-    private String firstName;         // First Name
-    private String lastName;          // Last Name
-    private String emailAddress;      // Email Address
-    private String password;          // Password
-    private String mobileNumber;      // Mobile Number (optional)
-    private String shippingAddress;   // Shipping Address
+    private String firstName;
+    private String lastName;
+    private String emailAddress;
+    private String password;
+    private String mobileNumber;
+    private String shippingAddress;
 
     // First Name
     public void setFirstName(String firstName) {

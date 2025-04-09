@@ -18,6 +18,8 @@ public class DecathlonRunner {
         GenerateDecathlon generateDecathlon = new GenerateDecathlon();
         boolean isUserRegistered = generateDecathlon.registerUser(decathlonDto);
 
+        generateDecathlon.getDetails();
+
         // Displaying the result of the registration
         if (isUserRegistered) {
             System.out.println("User registration successful!");

@@ -19,7 +19,9 @@ public class BakingoRunner {
         GenerateBakingo generateBakingo = new GenerateBakingo();
         boolean isUserRegistered = generateBakingo.registerUser(bakingoDto);
 
-      
+        generateBakingo.getDetails();
+
+
         if (isUserRegistered) {
             System.out.println("User registration successful!");
         } else {

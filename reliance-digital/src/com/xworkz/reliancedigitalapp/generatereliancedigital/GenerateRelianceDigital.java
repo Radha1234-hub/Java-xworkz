@@ -4,8 +4,11 @@ import com.xworkz.reliancedigitalapp.reliancedigital.RelianceDigitalDto;
 
 public class GenerateRelianceDigital {
 
+    RelianceDigitalDto relianceDigitalDto;
+
     public boolean registerUser(RelianceDigitalDto relianceDigitalDto) {
         boolean isUserRegistered = false;
+        this.relianceDigitalDto = relianceDigitalDto;
 
         boolean userValidated = validateUser(relianceDigitalDto);
         if (userValidated) {
@@ -63,5 +66,12 @@ public class GenerateRelianceDigital {
         }
 
         return userValidated;
+    }
+
+    public void getDetails(){
+        System.out.println("the user name is:"+this.relianceDigitalDto.getUsername());
+        System.out.println("the password is :"+this.relianceDigitalDto.getPassword());
+        System.out.println("the email is :"+this.relianceDigitalDto.getEmailAddress());
+        System.out.println("the phone number is :"+this.relianceDigitalDto.getMobileNumber());
     }
 }

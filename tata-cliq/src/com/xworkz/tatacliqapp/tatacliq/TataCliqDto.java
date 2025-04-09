@@ -6,7 +6,7 @@ public class TataCliqDto {
     private String lastName;
     private String emailAddress;
     private String password;
-    private String mobileNumber;      
+    private String mobileNumber;
 
     // First Name
     public void setFirstName(String firstName) {

@@ -4,8 +4,12 @@ import com.xworkz.godivaapp.godiva.GodivaDto;
 
 public class GenerateGodiva {
 
+    GodivaDto godivaDto;
+
     public boolean registerUser(GodivaDto godivaDto) {
         boolean isUserRegistered = false;
+
+        this.godivaDto = godivaDto;
 
         boolean userValidated = validateUser(godivaDto);
         if (userValidated) {
@@ -72,5 +76,13 @@ public class GenerateGodiva {
         }
 
         return userValidated;
+    }
+
+    public void getDetails(){
+        System.out.println("The name is :"+this.godivaDto.getName());
+        System.out.println("the email address is :"+this.godivaDto.getEmailAddress());
+        System.out.println("the address is:"+this.godivaDto.getAddress());
+        System.out.println("the password is:"+this.godivaDto.getPassword());
+        System.out.println("the mobile number is :"+this.godivaDto.getMobileNumber());
     }
 }

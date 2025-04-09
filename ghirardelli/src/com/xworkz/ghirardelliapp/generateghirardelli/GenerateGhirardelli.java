@@ -4,8 +4,12 @@ import com.xworkz.ghirardelliapp.ghirardelli.GhirardelliDto;
 
 public class GenerateGhirardelli {
 
+    GhirardelliDto ghirardelliDto;
+
     public boolean registerUser(GhirardelliDto ghirardelliDto) {
         boolean isUserRegistered = false;
+
+        this.ghirardelliDto = ghirardelliDto;
 
         boolean userValidated = validateUser(ghirardelliDto);
         if (userValidated) {
@@ -73,5 +77,13 @@ public class GenerateGhirardelli {
         }
 
         return userValidated;
+    }
+
+    public void getDetails(){
+        System.out.println("the name is :"+this.ghirardelliDto.getFullName());
+        System.out.println("the password is :"+this.ghirardelliDto.getPassword());
+        System.out.println("the address is :"+this.ghirardelliDto.getAddress());
+        System.out.println("the email address is:"+this.ghirardelliDto.getEmailAddress());
+        System.out.println("the mobile number is :"+this.ghirardelliDto.getMobileNumber());
     }
 }

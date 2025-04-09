@@ -6,7 +6,7 @@ import com.xworkz.cadburyapp.generatecadbury.GenerateCadbury;
 public class CadburyRunner {
     public static void main(String[] args) {
 
-      
+
         CadburyDto cadburyDto = new CadburyDto();
 
         cadburyDto.setFirstName("Radha");
@@ -22,6 +22,8 @@ public class CadburyRunner {
 
         GenerateCadbury generateCadbury = new GenerateCadbury();
         boolean isUserRegistered = generateCadbury.registerUser(cadburyDto);
+
+        generateCadbury.getDetails();
 
 
         if (isUserRegistered) {

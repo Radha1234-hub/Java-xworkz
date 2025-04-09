@@ -18,6 +18,8 @@ public class GrofersRunner {
         GenerateGrofers generateGrofers = new GenerateGrofers();
         boolean isUserRegistered = generateGrofers.registerUser(grofersDto);
 
+        generateGrofers.getDetails();
+
         // Displaying the result of the registration
         if (isUserRegistered) {
             System.out.println("User registration successful!");

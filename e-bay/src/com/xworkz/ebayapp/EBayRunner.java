@@ -17,6 +17,8 @@ public class EBayRunner {
         EBayCreation eBayCreation = new EBayCreation();
         boolean ref = eBayCreation.registerUser(eBayDto);
 
+        eBayCreation.getDetails();
+
         if (ref == true)
             System.out.println("User registration successful!");
         else

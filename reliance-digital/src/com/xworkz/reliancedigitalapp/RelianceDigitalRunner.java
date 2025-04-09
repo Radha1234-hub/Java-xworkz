@@ -18,7 +18,7 @@ public class RelianceDigitalRunner {
         GenerateRelianceDigital generateRelianceDigital = new GenerateRelianceDigital();
         boolean isUserRegistered = generateRelianceDigital.registerUser(relianceDigitalDto);
 
-        
+        generateRelianceDigital.getDetails();
         if (isUserRegistered) {
             System.out.println("User registration successful!");
         } else {

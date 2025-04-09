@@ -5,7 +5,7 @@ public class GrofersDto {
     private String username;
     private String mobileNumber;
     private String emailAddress;
-    private String password;       
+    private String password;
 
     // Username
     public void setUsername(String username) {

@@ -4,8 +4,12 @@ import com.xworkz.packlaneapp.packlane.PacklaneDto;
 
 public class GeneratePacklane {
 
+    PacklaneDto packlaneDto;
+
     public boolean registerUser(PacklaneDto packlaneDto) {
         boolean isUserRegistered = false;
+
+        this.packlaneDto = packlaneDto;
 
         boolean userValidated = validateUser(packlaneDto);
         if (userValidated) {
@@ -73,5 +77,13 @@ public class GeneratePacklane {
         }
 
         return userValidated;
+    }
+
+    public void getDetails(){
+        System.out.println("the full name is :"+this.packlaneDto.getFullName());
+        System.out.println("the password is :"+this.packlaneDto.getPassword());
+        System.out.println("the address is :"+this.packlaneDto.getAddress());
+        System.out.println("the email is :"+this.packlaneDto.getEmailAddress());
+        System.out.println("the company name is :"+this.packlaneDto.getCompanyName());
     }
 }

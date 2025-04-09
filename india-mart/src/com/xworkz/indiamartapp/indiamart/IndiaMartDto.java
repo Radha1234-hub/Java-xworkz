@@ -2,10 +2,10 @@ package com.xworkz.indiamartapp.indiamart;
 
 public class IndiaMartDto {
 
-    private String mobileNumber;     // Mobile Number
-    private String emailAddress;     // Registered Email Address
-    private String name;             // User Name or Company Name
-    private String productDetail;    // Details about the Product
+    private String mobileNumber;
+    private String emailAddress;
+    private String name;
+    private String productDetail;
 
     // Mobile Number
     public void setMobileNumber(String mobileNumber) {

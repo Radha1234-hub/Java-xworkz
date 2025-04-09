@@ -19,7 +19,7 @@ public class PacklaneRunner {
         GeneratePacklane generatePacklane = new GeneratePacklane();
         boolean isUserRegistered = generatePacklane.registerUser(packlaneDto);
 
-        
+        generatePacklane.getDetails();
         if (isUserRegistered) {
             System.out.println("User registration successful!");
         } else {

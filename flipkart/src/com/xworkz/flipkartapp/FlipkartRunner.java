@@ -16,6 +16,8 @@ public class FlipkartRunner {
         FlipkartCreation flipkartCreation = new FlipkartCreation();
         boolean ref = flipkartCreation.registerUser(flipkartDto);
 
+        flipkartCreation.getDetails();
+
         if (ref == true)
             System.out.println("User registration successful!");
         else

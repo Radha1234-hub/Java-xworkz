@@ -19,7 +19,7 @@ public class GodivaRunner {
         GenerateGodiva generateGodiva = new GenerateGodiva();
         boolean isUserRegistered = generateGodiva.registerUser(godivaDto);
 
-        
+        generateGodiva.getDetails();
         if (isUserRegistered) {
             System.out.println("User registration successful!");
         } else {

@@ -17,6 +17,8 @@ public class AliExpressRunner {
         AliExpressCreation aliExpressCreation = new AliExpressCreation();
         boolean ref = aliExpressCreation.registerUser(aliExpressDto);
 
+        aliExpressCreation.getDetails();
+
         if (ref == true)
             System.out.println("User registration successful!");
         else

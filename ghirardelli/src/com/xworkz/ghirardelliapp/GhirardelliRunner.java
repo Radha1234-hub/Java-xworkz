@@ -19,7 +19,7 @@ public class GhirardelliRunner {
         GenerateGhirardelli generateGhirardelli = new GenerateGhirardelli();
         boolean isUserRegistered = generateGhirardelli.registerUser(ghirardelliDto);
 
-       
+        generateGhirardelli.getDetails();
         if (isUserRegistered) {
             System.out.println("User registration successful!");
         } else {

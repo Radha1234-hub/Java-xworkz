@@ -4,8 +4,12 @@ import com.xworkz.indiamartapp.indiamart.IndiaMartDto;
 
 public class GenerateIndiaMart {
 
+    IndiaMartDto indiaMartDto;
+
     public boolean registerUser(IndiaMartDto indiaMartDto) {
         boolean isUserRegistered = false;
+
+        this.indiaMartDto = indiaMartDto;
 
         boolean userValidated = validateUser(indiaMartDto);
         if (userValidated) {
@@ -63,5 +67,12 @@ public class GenerateIndiaMart {
         }
 
         return userValidated;
+    }
+
+    public void getDetails(){
+        System.out.println("the mobile number is:"+this.indiaMartDto.getMobileNumber());
+        System.out.println("the name is:"+this.indiaMartDto.getName());
+        System.out.println("the product details is :"+this.indiaMartDto.getProductDetail());
+        System.out.println("the email address is:"+this.indiaMartDto.getEmailAddress());
     }
 }

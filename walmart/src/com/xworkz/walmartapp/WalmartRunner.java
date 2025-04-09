@@ -18,6 +18,8 @@ public class WalmartRunner {
         WalmartCreation walmartCreation = new WalmartCreation();
         boolean ref = walmartCreation.registerUser(walmartDto);
 
+        walmartCreation.getDetails();
+
         if (ref == true)
             System.out.println("User registration successful!");
         else

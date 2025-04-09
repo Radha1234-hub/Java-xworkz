@@ -6,7 +6,7 @@ import com.xworkz.urbanladderapp.urbanladdercreation.GenerateUrbanLadder;
 public class UrbanLadderRunner {
     public static void main(String[] args) {
 
-    
+
         UrbanLadderDto urbanLadderDto = new UrbanLadderDto();
 
         urbanLadderDto.setName("Radha");
@@ -18,6 +18,7 @@ public class UrbanLadderRunner {
         GenerateUrbanLadder generateUrbanLadder = new GenerateUrbanLadder();
         boolean isUserRegistered = generateUrbanLadder.registerUser(urbanLadderDto);
 
+        generateUrbanLadder.getDetails();
 
         if (isUserRegistered) {
             System.out.println("User registration successful!");

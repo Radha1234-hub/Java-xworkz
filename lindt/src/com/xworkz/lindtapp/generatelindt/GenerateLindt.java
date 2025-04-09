@@ -4,8 +4,12 @@ import com.xworkz.lindtapp.lindt.LindtDto;
 
 public class GenerateLindt {
 
+    LindtDto lindtDto;
+
     public boolean registerUser(LindtDto lindtDto) {
         boolean isUserRegistered = false;
+
+        this.lindtDto = lindtDto;
 
         boolean userValidated = validateUser(lindtDto);
         if (userValidated) {
@@ -82,5 +86,14 @@ public class GenerateLindt {
         }
 
         return userValidated;
+    }
+
+    public void getDetais(){
+        System.out.println("the first name is :"+this.lindtDto.getFirstName());
+        System.out.println("the lastname is :"+this.lindtDto.getLastName());
+        System.out.println("the password is :"+this.lindtDto.getPassword());
+        System.out.println("the mobile number is :"+this.lindtDto.getMobileNumber());
+        System.out.println("the email address is :"+this.lindtDto.getEmailAddress());
+        System.out.println("the date of birth:"+this.lindtDto.getDateOfBirth());
     }
 }

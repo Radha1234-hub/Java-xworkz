@@ -19,7 +19,7 @@ public class TataCliqRunner {
         TataCliqCreation tataCliqCreation = new TataCliqCreation();
         boolean isUserRegistered = tataCliqCreation.registerUser(tataCliqDto);
 
-
+        tataCliqCreation.getDetails();
         if (isUserRegistered)
             System.out.println("User registration successful!");
         else

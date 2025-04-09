@@ -4,8 +4,11 @@ import com.xworkz.grofersapp.grofers.GrofersDto;
 
 public class GenerateGrofers {
 
+    GrofersDto grofersDto;
+
     public boolean registerUser(GrofersDto grofersDto) {
         boolean isUserRegistered = false;
+        this.grofersDto = grofersDto;
 
         boolean userValidated = validateUser(grofersDto);
         if (userValidated) {
@@ -63,5 +66,12 @@ public class GenerateGrofers {
         }
 
         return userValidated;
+    }
+
+    public void getDetails(){
+        System.out.println("the user name is:"+this.grofersDto.getUsername());
+        System.out.println("the password is :"+this.grofersDto.getPassword());
+        System.out.println("the email address is :"+this.grofersDto.getEmailAddress());
+        System.out.println("the mobile number is :"+this.grofersDto.getMobileNumber());
     }
 }

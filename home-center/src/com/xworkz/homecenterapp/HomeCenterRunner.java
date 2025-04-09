@@ -19,7 +19,7 @@ public class HomeCenterRunner {
         GenerateHomeCenter generateHomeCenter = new GenerateHomeCenter();
         boolean isUserRegistered = generateHomeCenter.registerUser(homeCenterDto);
 
-       
+        generateHomeCenter.getDetails();
         if (isUserRegistered) {
             System.out.println("User registration successful!");
         } else {

@@ -4,8 +4,11 @@ import com.xworkz.flipkartapp.flipkart.FlipkartDto;
 
 public class FlipkartCreation {
 
+    FlipkartDto flipkartDto;
+
     public boolean registerUser(FlipkartDto flipkartDto) {
         boolean isUserRegistered = false;
+        this.flipkartDto = flipkartDto;
 
         boolean userValidated = validateUser(flipkartDto);
         if (userValidated) {
@@ -61,5 +64,12 @@ public class FlipkartCreation {
         }
 
         return userValidated;
+    }
+
+    public void getDetails(){
+        System.out.println("the name is :"+this.flipkartDto.getFullName());
+        System.out.println("the email is :"+this.flipkartDto.getEmailAddress());
+        System.out.println("the password is :"+this.flipkartDto.getPassword());
+        System.out.println("the mobile number is:"+this.flipkartDto.getMobileNumber());
     }
 }

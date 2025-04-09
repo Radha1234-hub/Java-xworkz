@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/incometax.iml" filepath="$PROJECT_DIR$/incometax.iml" />
+      <module fileurl="file://$PROJECT_DIR$/walmart.iml" filepath="$PROJECT_DIR$/walmart.iml" />
     </modules>
   </component>
 </project>

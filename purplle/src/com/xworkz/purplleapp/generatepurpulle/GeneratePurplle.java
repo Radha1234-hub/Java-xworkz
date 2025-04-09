@@ -4,9 +4,11 @@ import com.xworkz.purplleapp.purplle.PurplleDto;
 
 public class GeneratePurplle {
 
+    PurplleDto purplleDto;
+
     public boolean registerUser(PurplleDto purplleDto) {
         boolean isUserRegistered = false;
-
+        this.purplleDto = purplleDto;
         boolean userValidated = validateUser(purplleDto);
         if (userValidated) {
             isUserRegistered = true;
@@ -75,5 +77,14 @@ public class GeneratePurplle {
         }
 
         return userValidated;
+    }
+
+    public void getDetails(){
+        System.out.println("the first name is :"+this.purplleDto.getFirstName());
+        System.out.println("the last name is :"+this.purplleDto.getLastName());
+        System.out.println("the address is :"+this.purplleDto.getAddress());
+        System.out.println("the email address is :"+this.purplleDto.getEmailAddress());
+        System.out.println("the mobile number is:"+this.purplleDto.getMobileNumber());
+        System.out.println("the password is :"+this.purplleDto.getPassword());
     }
 }

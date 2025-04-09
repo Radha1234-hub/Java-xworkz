@@ -4,9 +4,12 @@ import com.xworkz.aliexpressapp.aliexpress.AliExpressDto;
 
 public class AliExpressCreation {
 
+    AliExpressDto aliExpressDto;
+
     public boolean registerUser(AliExpressDto aliExpressDto) {
         boolean isUserRegistered = false;
 
+        this.aliExpressDto = aliExpressDto;
         boolean userValidated = validateUser(aliExpressDto);
         if (userValidated) {
             isUserRegistered = true;
@@ -71,5 +74,14 @@ public class AliExpressCreation {
         }
 
         return userValidated;
+    }
+
+    public void getDetails(){
+        System.out.println("the firstname is :"+this.aliExpressDto.getFirstName());
+        System.out.println("the lastName is :"+this.aliExpressDto.getLastName());
+        System.out.println("the password is :"+this.aliExpressDto.getPassword());
+        System.out.println("the eamil address is :"+this.aliExpressDto.getEmailAddress());
+        System.out.println("the mobile number is :"+this.aliExpressDto.getMobileNumber());
+
     }
 }

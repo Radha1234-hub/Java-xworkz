@@ -19,7 +19,7 @@ public class FerreroRocherRunner {
         GenerateFerreroRocher generateFerreroRocher = new GenerateFerreroRocher();
         boolean isUserRegistered = generateFerreroRocher.registerUser(ferreroRocherDto);
 
-      
+        generateFerreroRocher.getDetails();
         if (isUserRegistered) {
             System.out.println("User registration successful!");
         } else {

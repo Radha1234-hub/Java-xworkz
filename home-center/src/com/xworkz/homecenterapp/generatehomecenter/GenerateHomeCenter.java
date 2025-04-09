@@ -4,8 +4,12 @@ import com.xworkz.homecenterapp.homecenter.HomeCenterDto;
 
 public class GenerateHomeCenter {
 
+    HomeCenterDto homeCenterDto;
+
     public boolean registerUser(HomeCenterDto homeCenterDto) {
         boolean isUserRegistered = false;
+
+        this.homeCenterDto = homeCenterDto;
 
         boolean userValidated = validateUser(homeCenterDto);
         if (userValidated) {
@@ -73,5 +77,13 @@ public class GenerateHomeCenter {
         }
 
         return userValidated;
+    }
+
+    public void getDetails(){
+        System.out.println("the firstname is :"+this.homeCenterDto.getFirstName());
+        System.out.println("the lastname is :"+this.homeCenterDto.getLastName());
+        System.out.println("the password is :"+this.homeCenterDto.getPassword());
+        System.out.println("The eamil address is:"+this.homeCenterDto.getEmailAddress());
+        System.out.println("the moblie number is :"+this.homeCenterDto.getMobileNumber());
     }
 }

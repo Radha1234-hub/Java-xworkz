@@ -4,9 +4,11 @@ import com.xworkz.cadburyapp.cadbury.CadburyDto;
 
 public class GenerateCadbury {
 
+    CadburyDto cadburyDto;
+
     public boolean registerUser(CadburyDto cadburyDto) {
         boolean isUserRegistered = false;
-
+ this.cadburyDto = cadburyDto;
         boolean userValidated = validateUser(cadburyDto);
         if (userValidated) {
             isUserRegistered = true;
@@ -110,5 +112,16 @@ public class GenerateCadbury {
         }
 
         return userValidated;
+    }
+
+    public void getDetails(){
+        System.out.println("The first name is :"+this.cadburyDto.getFirstName());
+        System.out.println("The last name is :"+this.cadburyDto.getLastName());
+        System.out.println("The email address is :"+this.cadburyDto.getEmailAddress());
+        System.out.println("The password is :"+this.cadburyDto.getPassword());
+        System.out.println("the streetadrress is :"+this.cadburyDto.getStreetAddress());
+        System.out.println("the state name is :"+this.cadburyDto.getState());
+        System.out.println("the city name is :"+this.cadburyDto.getCity());
+        System.out.println("the postal code is :"+this.cadburyDto.getPostalCode());
     }
 }

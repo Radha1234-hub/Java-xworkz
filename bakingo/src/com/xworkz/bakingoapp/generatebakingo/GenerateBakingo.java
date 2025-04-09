@@ -4,8 +4,12 @@ import com.xworkz.bakingoapp.bakingo.BakingoDto;
 
 public class GenerateBakingo {
 
+    BakingoDto bakingoDto;
+
     public boolean registerUser(BakingoDto bakingoDto) {
         boolean isUserRegistered = false;
+
+        this.bakingoDto = bakingoDto;
 
         boolean userValidated = validateUser(bakingoDto);
         if (userValidated) {
@@ -73,5 +77,13 @@ public class GenerateBakingo {
         }
 
         return userValidated;
+    }
+
+    public void getDetails(){
+        System.out.println("The full name is :"+this.bakingoDto.getFullName());
+        System.out.println("the email addres is :"+this.bakingoDto.getEmailAddress());
+        System.out.println("the address is"+this.bakingoDto.getAddress());
+        System.out.println("the password is : "+this.bakingoDto.getPassword());
+        System.out.println("the mobile number is :"+this.bakingoDto.getMobileNumber());
     }
 }

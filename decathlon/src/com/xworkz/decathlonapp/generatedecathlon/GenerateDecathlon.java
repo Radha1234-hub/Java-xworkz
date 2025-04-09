@@ -4,8 +4,11 @@ import com.xworkz.decathlonapp.decathlon.DecathlonDto;
 
 public class GenerateDecathlon {
 
+    DecathlonDto decathlonDto;
+
     public boolean registerUser(DecathlonDto decathlonDto) {
         boolean isUserRegistered = false;
+        this.decathlonDto = decathlonDto;
 
         boolean userValidated = validateUser(decathlonDto);
         if (userValidated) {
@@ -63,5 +66,12 @@ public class GenerateDecathlon {
         }
 
         return userValidated;
+    }
+
+    public void getDetails(){
+        System.out.println("the name is :"+this.decathlonDto.getName());
+        System.out.println("the email is :"+this.decathlonDto.getEmailAddress());
+        System.out.println("the password is :"+this.decathlonDto.getPassword());
+        System.out.println("the phone number is :"+this.decathlonDto.getPhoneNumber());
     }
 }

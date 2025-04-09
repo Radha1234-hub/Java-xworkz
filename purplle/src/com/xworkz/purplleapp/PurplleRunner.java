@@ -19,7 +19,7 @@ public class PurplleRunner {
         GeneratePurplle generatePurplle = new GeneratePurplle();
         boolean isUserRegistered = generatePurplle.registerUser(purplleDto);
 
-       
+       generatePurplle.getDetails();
         if (isUserRegistered) {
             System.out.println("User registration successful!");
         } else {

@@ -4,8 +4,12 @@ import com.xworkz.urbanladderapp.urbanladder.UrbanLadderDto;
 
 public class GenerateUrbanLadder {
 
+    UrbanLadderDto urbanLadderDto;
+
     public boolean registerUser(UrbanLadderDto urbanLadderDto) {
         boolean isUserRegistered = false;
+
+        this.urbanLadderDto = urbanLadderDto;
 
         boolean userValidated = validateUser(urbanLadderDto);
         if (userValidated) {
@@ -63,5 +67,12 @@ public class GenerateUrbanLadder {
         }
 
         return userValidated;
+    }
+
+    public void getDetails(){
+        System.out.println("The name is:"+this.urbanLadderDto.getName());
+        System.out.println("the address is:"+this.urbanLadderDto.getAddress());
+        System.out.println("the eamil address is:"+this.urbanLadderDto.getEmailAddress());
+        System.out.println("the password is :"+this.urbanLadderDto.getPassword());
     }
 }

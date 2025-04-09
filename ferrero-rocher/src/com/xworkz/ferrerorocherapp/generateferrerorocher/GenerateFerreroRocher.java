@@ -4,8 +4,11 @@ import com.xworkz.ferrerorocherapp.ferrerorocher.FerreroRocherDto;
 
 public class GenerateFerreroRocher {
 
+    FerreroRocherDto ferreroRocherDto;
+
     public boolean registerUser(FerreroRocherDto ferreroRocherDto) {
         boolean isUserRegistered = false;
+        this.ferreroRocherDto = ferreroRocherDto;
 
         boolean userValidated = validateUser(ferreroRocherDto);
         if (userValidated) {
@@ -73,5 +76,13 @@ public class GenerateFerreroRocher {
         }
 
         return userValidated;
+    }
+
+    public void getDetails(){
+        System.out.println("the full name is:"+this.ferreroRocherDto.getFullName());
+        System.out.println("the email is :"+this.ferreroRocherDto.getEmailAddress());
+        System.out.println("the password is:"+this.ferreroRocherDto.getPassword());
+        System.out.println("the mobile number is:"+this.ferreroRocherDto.getMobileNumber());
+        System.out.println("the address is :"+this.ferreroRocherDto.getAddress());
     }
 }

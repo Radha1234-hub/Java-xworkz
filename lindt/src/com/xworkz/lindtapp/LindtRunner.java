@@ -20,7 +20,8 @@ public class LindtRunner {
         GenerateLindt generateLindt = new GenerateLindt();
         boolean isUserRegistered = generateLindt.registerUser(lindtDto);
 
-      
+        generateLindt.getDetais();
+
         if (isUserRegistered) {
             System.out.println("User registration successful!");
         } else {

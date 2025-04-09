@@ -2,10 +2,15 @@ package com.xworkz.marsapp.generatemars;
 
 import com.xworkz.marsapp.mars.MarsDto;
 
+
 public class GenerateMars {
+    MarsDto marsDto;
 
     public boolean registerUser(MarsDto marsDto) {
         boolean isUserRegistered = false;
+
+        this.marsDto = marsDto;
+
 
         boolean userValidated = validateUser(marsDto);
         if (userValidated) {
@@ -33,6 +38,7 @@ public class GenerateMars {
         } else {
             System.out.println("Invalid Full Name");
         }
+
 
         // Validate Email Address
         String emailAddress = marsDto.getEmailAddress();
@@ -73,5 +79,13 @@ public class GenerateMars {
         }
 
         return userValidated;
+    }
+
+    public void getMarsDetails(){
+        System.out.println("The full name is"+this.marsDto.getFullName());
+        System.out.println("The email address is :"+this.marsDto.getEmailAddress());
+        System.out.println("The password is :"+this.marsDto.getPassword());
+        System.out.println("The address is :"+this.marsDto.getAddress());
+        System.out.println("The mobile number is :"+this.marsDto.getMobileNumber());
     }
 }

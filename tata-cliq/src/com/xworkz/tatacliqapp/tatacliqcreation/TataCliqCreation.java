@@ -4,8 +4,12 @@ import com.xworkz.tatacliqapp.tatacliq.TataCliqDto;
 
 public class TataCliqCreation {
 
+    TataCliqDto tataCliqDto;
+
     public boolean registerUser(TataCliqDto tataCliqDto) {
         boolean isUserRegistered = false;
+
+        this.tataCliqDto = tataCliqDto;
 
         boolean userValidated = validateUser(tataCliqDto);
         if (userValidated) {
@@ -71,5 +75,13 @@ public class TataCliqCreation {
         }
 
         return userValidated;
+    }
+
+    public  void getDetails(){
+        System.out.println("the first name is:"+this.tataCliqDto.getFirstName());
+        System.out.println("the last name is :"+this.tataCliqDto.getLastName());
+        System.out.println("the password is :"+this.tataCliqDto.getPassword());
+        System.out.println("the email address is :"+this.tataCliqDto.getEmailAddress());
+        System.out.println("the mobile number is :"+this.tataCliqDto.getMobileNumber());
     }
 }

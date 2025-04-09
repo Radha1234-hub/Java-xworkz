@@ -19,7 +19,8 @@ public class MarsRunner {
         GenerateMars generateMars = new GenerateMars();
         boolean isUserRegistered = generateMars.registerUser(marsDto);
 
-      
+        generateMars.getMarsDetails();
+
         if (isUserRegistered) {
             System.out.println("User registration successful!");
         } else {

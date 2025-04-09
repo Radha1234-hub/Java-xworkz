@@ -18,7 +18,7 @@ public class IndiaMartRunner {
         GenerateIndiaMart generateIndiaMart = new GenerateIndiaMart();
         boolean isUserRegistered = generateIndiaMart.registerUser(indiaMartDto);
 
-        
+        generateIndiaMart.getDetails();
         if (isUserRegistered) {
             System.out.println("User registration successful!");
         } else {

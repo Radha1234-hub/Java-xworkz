@@ -2,11 +2,11 @@ package com.xworkz.ebayapp.ebay;
 
 public class EBayDto {
 
-    private String emailAddress;   // Email Address
-    private String username;       // Username
-    private String password;       // Password
-    private String confirmPassword; // Confirm Password
-    private String phoneNumber;    // Phone Number
+    private String emailAddress;
+    private String username;
+    private String password;
+    private String confirmPassword;
+    private String phoneNumber;
 
     // Email Address
     public void setEmailAddress(String emailAddress) {

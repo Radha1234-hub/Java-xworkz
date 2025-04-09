@@ -4,9 +4,13 @@ import com.xworkz.ebayapp.ebay.EBayDto;
 
 public class EBayCreation {
 
+    EBayDto eBayDto;
+
 
         public boolean registerUser(EBayDto eBayDto) {
             boolean isUserRegistered = false;
+
+            this.eBayDto = eBayDto;
 
             boolean userValidated = validateUser(eBayDto);
             if (userValidated) {
@@ -72,6 +76,14 @@ public class EBayCreation {
             }
 
             return userValidated;
+        }
+
+        public void getDetails(){
+            System.out.println("The username is :"+this.eBayDto.getUsername());
+            System.out.println("The password is:"+this.eBayDto.getPassword());
+            System.out.println("the confrim password is :"+this.eBayDto.getConfirmPassword());
+            System.out.println("the phone number is:"+this.eBayDto.getPhoneNumber());
+            System.out.println("the email address is :"+this.eBayDto.getEmailAddress());
         }
     }
 
