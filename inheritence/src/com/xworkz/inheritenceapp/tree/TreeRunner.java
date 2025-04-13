@@ -6,5 +6,15 @@ public class TreeRunner {
         tree.treeDetails();
 
         Neem neem = new Neem();
-        neem.treeDetails();}
+        neem.treeDetails();
+
+        Tree ref = new Neem();
+        ref.treeDetails();
+
+        Neem downcasted = (Neem) ref;
+        downcasted.treeDetails();
+
+
+
+    }
 }

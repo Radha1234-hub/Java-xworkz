@@ -7,5 +7,6 @@ public class Root {
         System.out.println("Roots come in various forms, such as taproots, fibrous roots, and adventitious roots.");
         System.out.println("Examples include carrots, radishes, and turnips, which are edible roots.");
         System.out.println("Roots also store food and water for plants, ensuring their survival.");
+        System.out.println("\n");
     }
 }

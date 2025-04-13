@@ -7,5 +7,6 @@ public class Game {
         System.out.println("Games are played for leisure, education, or professional purposes.");
         System.out.println("Examples include chess, football, cricket, and video games.");
         System.out.println("Games often foster teamwork, strategic thinking, and creativity.");
+        System.out.println("\n");
     }
 }

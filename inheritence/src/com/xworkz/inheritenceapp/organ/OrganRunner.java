@@ -7,5 +7,14 @@ public class OrganRunner {
 
     Heart heart = new Heart();
     heart.organDetails();
-}
+
+    Organ ref = new Heart();
+    ref.organDetails();
+
+        Heart downcasted = (Heart) ref;
+        downcasted.organDetails();
+
+
+
+    }
 }

@@ -8,6 +8,12 @@ public class FlowerRunner {
 
 
         Lotus lotus = new Lotus();
-        lotus.flowerDetails(); // Inherits the method from Flower
+        lotus.flowerDetails();
+
+        Flower ref = new Lotus();
+        ref.flowerDetails();
+
+        Lotus downcasted = (Lotus) ref;
+        downcasted.flowerDetails();
     }
 }

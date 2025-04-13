@@ -6,5 +6,12 @@ public class AmphibianRunner {
         amphibian.amphibianDetails();
 
         Frog frog = new Frog();
-        frog.amphibianDetails();}
+        frog.amphibianDetails();
+
+        Amphibian crocodile = new Frog();
+        crocodile.amphibianDetails();
+
+        Frog downcasted = (Frog) crocodile;
+        downcasted.amphibianDetails();
+    }
 }

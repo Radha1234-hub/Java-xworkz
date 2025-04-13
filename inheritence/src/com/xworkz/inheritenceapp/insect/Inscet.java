@@ -7,5 +7,6 @@ public class Inscet {
         System.out.println("Insects typically have six legs and may have wings or antennae.");
         System.out.println("Examples include butterflies, bees, ants, and beetles.");
         System.out.println("Insects play vital roles in pollination, decomposition, and the food chain.");
+        System.out.println("\n");
     }
 }

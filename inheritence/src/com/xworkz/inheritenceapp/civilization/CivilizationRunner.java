@@ -7,5 +7,11 @@ public class CivilizationRunner {
 
         Indus indus = new Indus();
         indus.civilizationDetails();
+
+        Civilization ref = new Indus();
+        ref.civilizationDetails();
+
+        Indus downcasted = (Indus) ref;
+        downcasted.civilizationDetails();
     }
 }

@@ -7,5 +7,6 @@ public class Art {
         System.out.println("Art can evoke emotions, provoke thought, and inspire imagination.");
         System.out.println("It has been an integral part of human culture throughout history.");
         System.out.println("Art can be traditional, contemporary, abstract, or functional.");
+        System.out.println("\n");
     }
 }

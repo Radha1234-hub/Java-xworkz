@@ -8,5 +8,11 @@ public class BoneRunner {
 
         Femur femur = new Femur();
         femur.boneDetails();
+
+        Bone ref = new Femur();
+        ref.boneDetails();
+
+        Femur downcasted = (Femur) ref;
+        downcasted.boneDetails();
     }
 }

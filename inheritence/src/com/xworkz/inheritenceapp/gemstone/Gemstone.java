@@ -7,5 +7,6 @@ public class Gemstone {
         System.out.println("Gemstones are often cut and polished to enhance their appearance.");
         System.out.println("Examples include diamonds, rubies, emeralds, and sapphires.");
         System.out.println("Gemstones hold cultural and symbolic significance in many societies.");
+        System.out.println("\n");
     }
 }

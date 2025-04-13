@@ -6,5 +6,12 @@ public class ActorRunner {
         actor.actorDetails();
 
         Rajinikanth rajinikanth = new Rajinikanth();
-        rajinikanth.actorDetails();}
+        rajinikanth.actorDetails();
+
+        Actor shiva = new Rajinikanth();
+        shiva.actorDetails();
+
+        Rajinikanth downcasted = (Rajinikanth) shiva;
+        downcasted.actorDetails();
+    }
 }

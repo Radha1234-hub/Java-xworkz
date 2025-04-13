@@ -8,5 +8,13 @@ public class LiquidRunner {
 
         Water water = new Water();
         water.liquidDetails();
+
+        Liquid ref = new Water();
+        ref.liquidDetails();
+
+        Water downcasted = (Water) ref;
+        downcasted.liquidDetails();
+
+
     }
 }

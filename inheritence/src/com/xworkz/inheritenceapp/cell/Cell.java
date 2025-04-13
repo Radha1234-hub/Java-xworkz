@@ -7,5 +7,6 @@ public class Cell {
         System.out.println("Cells are classified into prokaryotic and eukaryotic based on their structure.");
         System.out.println("Examples include red blood cells, white blood cells, and nerve cells.");
         System.out.println("Cells are the building blocks of life, forming tissues, organs, and systems.");
+        System.out.println("\n");
     }
 }

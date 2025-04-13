@@ -6,5 +6,14 @@ public class GlassRunner {
         glass.glassDetails();
 
         Window window = new Window();
-        window.glassDetails();}
+        window.glassDetails();
+
+        Glass ref = new Window();
+        ref.glassDetails();
+
+        Window downcasted = (Window) ref;
+        downcasted.glassDetails();
+
+
+    }
 }

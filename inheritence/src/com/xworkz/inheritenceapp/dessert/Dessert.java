@@ -7,5 +7,6 @@ public class Dessert {
         System.out.println("Desserts are enjoyed for their flavors, textures, and presentation.");
         System.out.println("They often contain sugar, dairy, fruits, and chocolates.");
         System.out.println("Desserts hold a special place in celebrations and gatherings.");
+        System.out.println("\n");
     }
 }

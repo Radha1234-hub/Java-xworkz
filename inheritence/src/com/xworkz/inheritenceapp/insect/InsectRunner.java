@@ -9,5 +9,11 @@ public class InsectRunner {
 
             ButterFly butterfly = new ButterFly();
             butterfly.insectDetails();
+
+            Inscet ref = new ButterFly();
+            ref.insectDetails();
+
+            ButterFly downcasted = (ButterFly) ref;
+            downcasted.insectDetails();
         }
     }

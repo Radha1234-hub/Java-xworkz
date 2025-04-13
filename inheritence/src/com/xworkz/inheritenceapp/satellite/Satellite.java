@@ -7,5 +7,6 @@ public class Satellite {
         System.out.println("Satellites play a crucial role in scientific research and communication.");
         System.out.println("Natural satellites are formed through natural processes, while artificial ones are man-made.");
         System.out.println("Examples include the Earth's Moon, Io (Jupiter's moon), and Hubble Space Telescope.");
+        System.out.println("\n");
     }
 }

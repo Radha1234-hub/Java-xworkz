@@ -5,8 +5,15 @@ public class ArithmeticRunner {
         ArithmeticOperation operation = new ArithmeticOperation();
         operation.operationDetails();
 
+
         Addition addition = new Addition();
         addition.operationDetails();
+
+        ArithmeticOperation oper = new Addition();
+        oper.operationDetails();
+
+        Addition downcasted = (Addition) oper;
+        downcasted.operationDetails();
 
     }
 }

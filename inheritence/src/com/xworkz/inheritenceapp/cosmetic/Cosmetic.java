@@ -7,5 +7,6 @@ public class Cosmetic {
         System.out.println("Cosmetics are widely used for beauty, grooming, and self-expression.");
         System.out.println("Common cosmetic products include lipsticks, foundations, and mascaras.");
         System.out.println("They are available in a variety of colors, formulations, and styles.");
+        System.out.println("\n");
     }
 }

@@ -7,5 +7,6 @@ public class Chocolate {
         System.out.println("Popular Cadbury products include Dairy Milk, Bournville, and 5 Star.");
         System.out.println("Chocolates are enjoyed as snacks, desserts, and gifts worldwide.");
         System.out.println("Proper storage is crucial to maintain the quality and taste of chocolates.");
+        System.out.println("\n");
     }
 }

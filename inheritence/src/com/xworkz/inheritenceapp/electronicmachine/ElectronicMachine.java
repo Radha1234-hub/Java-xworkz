@@ -7,5 +7,6 @@ public class ElectronicMachine {
         System.out.println("Examples include laptops, smartphones, televisions, and washing machines.");
         System.out.println("These machines use circuits, chips, and software to process data or perform actions.");
         System.out.println("Electronic machines have revolutionized industries and modern life.");
+        System.out.println("\n");
     }
 }

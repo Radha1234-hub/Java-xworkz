@@ -6,5 +6,14 @@ public class LivingBeingRunner {
         livingBeing.livingBeingDetails();
 
         Human human = new Human();
-        human.livingBeingDetails();}
+        human.livingBeingDetails();
+
+        LivingBeing ref = new Human();
+        ref.livingBeingDetails();
+
+        Human downcasted = (Human) ref;
+        downcasted.livingBeingDetails();
+
+
+    }
 }

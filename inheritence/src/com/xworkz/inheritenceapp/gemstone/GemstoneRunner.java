@@ -7,4 +7,11 @@ public class GemstoneRunner {
 
         Daimond daimond = new Daimond();
         daimond.gemstoneDetails();
-}}
+
+        Gemstone ref = new Daimond();
+        ref.gemstoneDetails();
+
+        Daimond downcasted = (Daimond) ref;
+        downcasted.gemstoneDetails();
+
+    }}

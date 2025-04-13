@@ -7,5 +7,6 @@ public class LivingBeing {
         System.out.println("Living beings include humans, animals, plants, and microorganisms.");
         System.out.println("They play essential roles in maintaining ecological balance and biodiversity.");
         System.out.println("Characteristics of living beings include metabolism, movement, and cellular structure.");
+        System.out.println("\n");
     }
 }

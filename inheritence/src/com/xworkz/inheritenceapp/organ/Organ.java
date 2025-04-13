@@ -8,5 +8,6 @@ public class Organ {
         System.out.println("Organs can be internal, like the heart and lungs, or external, like the skin.");
         System.out.println("Examples of organs include the brain, liver, kidneys, and stomach.");
         System.out.println("Organs work collaboratively within organ systems, such as the digestive or respiratory systems.");
+        System.out.println("\n");
     }
 }

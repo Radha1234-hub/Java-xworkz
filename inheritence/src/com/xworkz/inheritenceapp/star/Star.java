@@ -7,5 +7,6 @@ public class Star {
         System.out.println("Stars are classified based on their size, temperature, and brightness.");
         System.out.println("Examples include the Sun, Sirius, and Betelgeuse.");
         System.out.println("Stars play a key role in the formation of galaxies and planetary systems.");
+        System.out.println("\n");
     }
 }

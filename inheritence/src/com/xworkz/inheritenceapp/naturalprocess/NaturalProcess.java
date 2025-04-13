@@ -7,5 +7,6 @@ public class NaturalProcess {
         System.out.println("Chlorophyll, the green pigment in plants, plays a key role in absorbing sunlight.");
         System.out.println("This process is crucial for sustaining life on Earth by providing oxygen and food.");
         System.out.println("Photosynthesis occurs mainly in the leaves of plants.");
+        System.out.println("\n");
     }
 }

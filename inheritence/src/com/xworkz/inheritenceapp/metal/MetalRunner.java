@@ -6,5 +6,12 @@ public class MetalRunner {
         metal.metalDetails();
 
         Gold gold = new Gold();
-        gold.metalDetails();}
-}
+        gold.metalDetails();
+
+    Metal ref = new Gold();
+    ref.metalDetails();
+
+        Gold downcasted = (Gold) ref;
+        downcasted.metalDetails();
+
+    }}

@@ -7,5 +7,6 @@ public class Civilization {
         System.out.println("Examples of ancient civilizations include the Indus Valley, Mesopotamia, and Egypt.");
         System.out.println("Civilizations contribute to the development of art, science, and architecture.");
         System.out.println("They leave behind legacies that influence future generations.");
+        System.out.println("\n");
     }
 }

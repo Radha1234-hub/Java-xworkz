@@ -9,6 +9,13 @@ public class PlasticRunner {
 
         Bottle bottle = new Bottle();
         bottle.propertyOfPlastic();
+
+        Plastic ref = new Bottle();
+        ref.propertyOfPlastic();
+
+        Bottle downcasted = (Bottle) ref;
+        downcasted.propertyOfPlastic();
+
     }
 
 }

@@ -7,5 +7,6 @@ public class Metal {
         System.out.println("Examples of metals include gold, silver, iron, and aluminum.");
         System.out.println("Metals are widely used in industries, construction, and jewelry making.");
         System.out.println("Metals play a vital role in modern technology and manufacturing processes.");
+        System.out.println("\n");
     }
 }

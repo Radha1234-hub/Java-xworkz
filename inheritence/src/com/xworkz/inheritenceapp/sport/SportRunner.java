@@ -8,5 +8,12 @@ public class SportRunner {
 
         Cricket cricket = new Cricket();
         cricket.sportDetails();
+
+        Sport ref = new Cricket();
+        ref.sportDetails();
+
+        Cricket downcasted = (Cricket) ref;
+        downcasted.sportDetails();
+
     }
 }

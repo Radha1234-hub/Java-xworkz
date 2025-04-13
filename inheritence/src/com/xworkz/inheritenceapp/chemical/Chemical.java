@@ -7,5 +7,6 @@ public class Chemical {
         System.out.println("Chemicals can be naturally occurring or synthesized in laboratories.");
         System.out.println("Examples include water, oxygen, salt, and various cleaning agents.");
         System.out.println("Understanding chemical properties is essential for safe handling and usage.");
+        System.out.println("\n");
     }
 }

@@ -6,5 +6,13 @@ public class DessertRunner {
         dessert.dessertDetails();
 
         IceCream iceCream = new IceCream();
-        iceCream.dessertDetails();}
+        iceCream.dessertDetails();
+
+        Dessert ref = new IceCream();
+        ref.dessertDetails();
+
+        IceCream downcasted = (IceCream) ref;
+        downcasted.dessertDetails();
+    }
+
 }

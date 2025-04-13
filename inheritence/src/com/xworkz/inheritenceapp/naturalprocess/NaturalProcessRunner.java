@@ -7,5 +7,12 @@ public class NaturalProcessRunner {
 
         Photosynthesis photosynthesis = new Photosynthesis();
         photosynthesis.processDetails();
+
+        NaturalProcess ref = new Photosynthesis();
+        ref.processDetails();
+
+        Photosynthesis downcasted = (Photosynthesis) ref;
+        downcasted.processDetails();
+
     }
 }

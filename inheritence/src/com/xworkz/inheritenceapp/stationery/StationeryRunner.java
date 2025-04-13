@@ -7,5 +7,12 @@ public class StationeryRunner {
 
         Pencil pencil = new Pencil();
         pencil.stationeryDetails();
+
+        Stationery ref = new Pencil();
+        ref.stationeryDetails();
+
+        Pencil downcasted = (Pencil) ref;
+        downcasted.stationeryDetails();
+
     }
 }

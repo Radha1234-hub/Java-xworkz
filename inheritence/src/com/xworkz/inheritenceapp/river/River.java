@@ -7,5 +7,6 @@ public class River {
         System.out.println("Rivers are sources of freshwater and support diverse flora and fauna.");
         System.out.println("Examples include the Ganga, Nile, Amazon, and Yangtze rivers.");
         System.out.println("Rivers are often culturally and spiritually significant to communities.");
+        System.out.println("\n");
     }
 }

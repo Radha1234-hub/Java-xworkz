@@ -7,5 +7,13 @@ public class NerveCellRunner {
 
         Neuron neuron = new Neuron();
         neuron.nerveDetails();
+
+        NerveCell ref = new Neuron();
+        ref.nerveDetails();
+
+        Neuron downcasted = (Neuron) ref;
+        downcasted.nerveDetails();
+
+
     }
 }

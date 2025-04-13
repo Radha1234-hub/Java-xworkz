@@ -7,5 +7,6 @@ public class Amphibian {
         System.out.println("Amphibians include frogs, salamanders, and caecilians.");
         System.out.println("They play a vital role in ecosystems as both predators and prey.");
         System.out.println("Amphibians are sensitive to environmental changes and are indicators of ecosystem health.");
+        System.out.println("\n");
     }
 }

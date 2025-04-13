@@ -7,5 +7,6 @@ public class Glass {
         System.out.println("Glass is valued for its durability, versatility, and aesthetic appeal.");
         System.out.println("It is commonly used in construction, design, and everyday items.");
         System.out.println("Glass can be manufactured in different forms, such as tempered, laminated, or stained glass.");
+        System.out.println("\n");
     }
 }

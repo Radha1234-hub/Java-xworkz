@@ -6,5 +6,15 @@ public class StarRunner {
         star.starDetails();
 
         Sun sun = new Sun();
-        sun.starDetails();}
+        sun.starDetails();
+
+
+        Star ref = new Sun();
+        ref.starDetails();
+
+        Sun downcasted = (Sun) ref;
+        downcasted.starDetails();
+
+
+    }
 }

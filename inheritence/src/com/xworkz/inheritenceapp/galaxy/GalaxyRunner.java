@@ -7,5 +7,11 @@ public class GalaxyRunner {
 
         MilkyWay milkyWay = new MilkyWay();
         milkyWay.galaxyDetails();
+
+        Galaxy ref = new MilkyWay();
+        ref.galaxyDetails();
+
+        MilkyWay downcasted = (MilkyWay) ref;
+        downcasted.galaxyDetails();
     }
 }

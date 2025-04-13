@@ -6,5 +6,14 @@ public class StoneRunner {
         stone.stoneDetails();
 
         Granite granite = new Granite();
-        granite.stoneDetails();}
+        granite.stoneDetails();
+
+        Stone ref = new Granite();
+        ref.stoneDetails();
+
+        Granite downcasted = (Granite) ref;
+        downcasted.stoneDetails();
+
+
+    }
 }

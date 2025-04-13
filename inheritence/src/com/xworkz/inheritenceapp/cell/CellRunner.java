@@ -6,5 +6,15 @@ public class CellRunner {
         cell.cellDetails();
 
         WhiteBloodCell whiteBloodCell = new WhiteBloodCell();
-        whiteBloodCell.cellDetails();}
+        whiteBloodCell.cellDetails();
+
+        Cell ref = new WhiteBloodCell();
+        ref.cellDetails();
+
+        WhiteBloodCell downcasted = (WhiteBloodCell) ref;
+        downcasted.cellDetails();
+
+
+
+    }
 }

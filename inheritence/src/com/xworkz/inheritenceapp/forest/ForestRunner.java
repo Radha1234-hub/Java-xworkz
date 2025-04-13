@@ -6,5 +6,12 @@ public class ForestRunner {
         forest.forestDetails();
 
         Amazon amazon = new Amazon();
-        amazon.forestDetails();}
+        amazon.forestDetails();
+
+        Forest ref = new Amazon();
+        ref.forestDetails();
+
+        Amazon downcasted = (Amazon) ref;
+        downcasted.forestDetails();
+    }
 }

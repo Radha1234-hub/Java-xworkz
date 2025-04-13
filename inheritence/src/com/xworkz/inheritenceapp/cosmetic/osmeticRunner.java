@@ -6,5 +6,13 @@ public class osmeticRunner {
         cosmetic.cosmeticDetails();
 
         LipStick lipstick = new LipStick();
-        lipstick.cosmeticDetails();}
+        lipstick.cosmeticDetails();
+
+        Cosmetic ref = new LipStick();
+        ref.cosmeticDetails();
+
+        LipStick downcasted = (LipStick) ref;
+        downcasted.cosmeticDetails();
+
+    }
 }

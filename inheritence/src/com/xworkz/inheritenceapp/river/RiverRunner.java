@@ -6,5 +6,13 @@ public class RiverRunner {
         river.riverDetails();
 
         Ganga ganga = new Ganga();
-        ganga.riverDetails();}
+        ganga.riverDetails();
+
+        River ref = new Ganga();
+        ref.riverDetails();
+
+        Ganga downcasted = (Ganga) ref;
+        downcasted.riverDetails();
+
+    }
 }

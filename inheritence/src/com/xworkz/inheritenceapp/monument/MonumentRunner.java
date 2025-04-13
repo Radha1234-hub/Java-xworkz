@@ -6,5 +6,13 @@ public class MonumentRunner {
         monument.monumentDetails();
 
         TajMahal tajMahal = new TajMahal();
-        tajMahal.monumentDetails();}
+        tajMahal.monumentDetails();
+
+    Monument ref = new TajMahal();
+    ref.monumentDetails();
+
+        TajMahal downcasted = (TajMahal) ref;
+        downcasted.monumentDetails();
+
+    }
 }

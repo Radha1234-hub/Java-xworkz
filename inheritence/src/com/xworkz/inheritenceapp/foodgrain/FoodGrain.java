@@ -8,5 +8,6 @@ public class FoodGrain {
         System.out.println("Storage Stability: Long shelf life due to low moisture content.");
         System.out.println("Versatility: Can be processed into various forms like flour, flakes, or cooked whole.");
         System.out.println("Economic Value: Key staple foods with significant global agricultural importance.");
+        System.out.println("\n");
     }
     }

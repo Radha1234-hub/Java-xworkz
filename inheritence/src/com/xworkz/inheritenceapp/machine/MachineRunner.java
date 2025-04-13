@@ -7,5 +7,12 @@ public class MachineRunner {
 
         Computer ref= new Computer();
         ref.machineDetails();
+
+        Machine ref1 = new Computer();
+        ref1.machineDetails();
+
+        Computer downcasted = (Computer) ref1;
+        downcasted.machineDetails();
+
     }
 }

@@ -7,5 +7,12 @@ public class LeatherRunner {
 
         Leather leather = new Leather();
         leather.shoeDetails();
+
+        Leather ref = new Shoe();
+        ref.shoeDetails();
+
+        Shoe downcasted = (Shoe) ref;
+        downcasted.shoeDetails();
+
     }
 }

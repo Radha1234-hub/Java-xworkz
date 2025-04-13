@@ -8,5 +8,12 @@ public class PlanetRunner {
 
         Earth earth = new Earth();
         earth.planetDetails();
+
+        Planet ref = new Earth();
+        ref.planetDetails();
+
+        Earth downcasted = (Earth) ref;
+        downcasted.planetDetails();
+
     }
 }

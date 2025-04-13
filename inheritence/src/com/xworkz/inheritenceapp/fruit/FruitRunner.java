@@ -9,6 +9,12 @@ public class FruitRunner {
 
         Mango mango = new Mango();
         mango.fruitDetails();
+
+        Fruit ref = new Mango();
+        ref.fruitDetails();
+
+        Mango downcasted = (Mango) ref;
+        downcasted.fruitDetails();
     }
 
 }

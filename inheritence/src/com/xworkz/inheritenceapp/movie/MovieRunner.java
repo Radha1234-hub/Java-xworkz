@@ -6,5 +6,12 @@ public class MovieRunner {
         movie.movieDetails();
 
         HarryPotter harryPotter = new HarryPotter();
-        harryPotter.movieDetails();}
+        harryPotter.movieDetails();
+
+    Movie ref = new HarryPotter();
+    ref.movieDetails();
+
+        HarryPotter downcasted = (HarryPotter) ref;
+        downcasted.movieDetails();
+    }
 }

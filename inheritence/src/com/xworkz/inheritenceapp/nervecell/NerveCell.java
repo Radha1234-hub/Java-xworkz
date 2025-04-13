@@ -6,5 +6,6 @@ public class NerveCell {
         System.out.println("They are essential for sensory and motor functions in the body.");
         System.out.println("Nerves consist of bundles of axons that carry electrical impulses.");
         System.out.println("They play a critical role in communication within the nervous system.");
+        System.out.println("\n");
     }
 }

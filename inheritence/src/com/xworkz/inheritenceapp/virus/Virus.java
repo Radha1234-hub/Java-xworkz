@@ -9,6 +9,7 @@ public class Virus {
             System.out.println("Host Cell Damage: Viruses hijack the cellular machinery of their hosts to reproduce, often destroying the host cells in the process, which leads to tissue damage and organ dysfunction.");
             System.out.println("Environmental Persistence: Some viruses can remain viable outside their hosts for extended periods, increasing their chances of transmission.");
             System.out.println("Resistance to Treatments: Certain viruses, like those causing the common cold, can resist antiviral drugs, making their management more challenging.");
+        System.out.println("\n");
         }
     }
 

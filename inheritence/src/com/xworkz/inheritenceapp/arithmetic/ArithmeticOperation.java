@@ -9,5 +9,6 @@ public class ArithmeticOperation {
         System.out.println("Subtraction finds the difference between values.");
         System.out.println("Multiplication calculates the product of values.");
         System.out.println("Division splits a value into equal parts.");
+        System.out.println("\n");
     }
 }

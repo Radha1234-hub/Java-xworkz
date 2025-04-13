@@ -8,5 +8,6 @@ public class Plastic {
         System.out.println("Recyclability: Certain types of plastics can be recycled through various processes, contributing to sustainability efforts.");
         System.out.println("Lightweight: Plastics are generally lighter than metals or glass, making them ideal for applications where weight reduction is crucial.");
         System.out.println("Flexibility: Plastics can be molded into various shapes and forms, from rigid containers to flexible films.");
+        System.out.println("\n");
     }
 }

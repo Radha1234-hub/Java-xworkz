@@ -7,5 +7,12 @@ public class SatelliteRunner {
 
         Moon moon = new Moon();
         moon.satelliteDetails();
+
+        Satellite ref = new Moon();
+        ref.satelliteDetails();
+
+        Moon downcasted = (Moon) ref;
+        downcasted.satelliteDetails();
+
     }
 }

@@ -8,5 +8,12 @@ public class OrnamentRunner {
         Earrings earrings = new Earrings();
         earrings.ornamentDetails();
 
+        Ornament ref = new Earrings();
+        ref.ornamentDetails();
+
+        Earrings downcasted = (Earrings) ref;
+        downcasted.ornamentDetails();
+
+
     }
 }

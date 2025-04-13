@@ -7,5 +7,6 @@ public class Hormone {
         System.out.println("Hormones regulate various functions such as growth, metabolism, and mood.");
         System.out.println("Examples of hormones include insulin, adrenaline, and cortisol.");
         System.out.println("Maintaining hormonal balance is essential for overall health.");
+        System.out.println("\n");
     }
 }

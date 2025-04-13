@@ -6,5 +6,13 @@ public class SpiceRunner {
         spice.spiceDetails();
 
         Pepper pepper = new Pepper();
-        pepper.spiceDetails();}
+        pepper.spiceDetails();
+
+    Spice ref = new Pepper();
+    ref.spiceDetails();
+
+        Pepper downcasted = (Pepper) ref;
+        downcasted.spiceDetails();
+
+    }
 }

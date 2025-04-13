@@ -7,5 +7,11 @@ public class ChocolateRunner {
 
         Cadbury cadbury = new Cadbury();
         cadbury.chocolateDetails();
-    }
+
+        Chocolate ref = new Cadbury();
+        ref.chocolateDetails();
+
+
+        Cadbury downcasted = (Cadbury) ref;
+        downcasted.chocolateDetails();}
 }

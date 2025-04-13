@@ -7,5 +7,6 @@ public class Fruit {
         System.out.println("Mango is a tropical fruit known as the 'King of Fruits.'");
         System.out.println("It is rich in Vitamin A and C, and is enjoyed in various forms like juice, desserts, and fresh slices.");
         System.out.println("Fruits contribute to a healthy and balanced diet.");
+        System.out.println("\n");
     }
 }

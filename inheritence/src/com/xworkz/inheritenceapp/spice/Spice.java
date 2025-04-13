@@ -7,5 +7,6 @@ public class Spice {
         System.out.println("Spices play a significant role in cuisines across the globe.");
         System.out.println("Examples include pepper, cinnamon, turmeric, and cloves.");
         System.out.println("Spices are also known for their medicinal properties and health benefits.");
+        System.out.println("\n");
     }
 }

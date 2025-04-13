@@ -6,5 +6,12 @@ public class ElectronicMachineRunner {
         electronicMachine.machineDetails();
 
         Laptop laptop = new Laptop();
-        laptop.machineDetails();}
+        laptop.machineDetails();
+
+        ElectronicMachine ref = new Laptop();
+        ref.machineDetails();
+
+        Laptop downcasted = (Laptop) ref;
+        downcasted.machineDetails();
+    }
 }

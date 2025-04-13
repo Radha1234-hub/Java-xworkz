@@ -6,5 +6,14 @@ public class RootRunner {
         root.rootDetails();
 
         Carrot carrot = new Carrot();
-        carrot.rootDetails();}
+        carrot.rootDetails();
+
+        Root ref = new Carrot();
+        ref.rootDetails();
+
+        Carrot downcasted = (Carrot) ref;
+        downcasted.rootDetails();
+
+
+    }
 }

@@ -7,5 +7,6 @@ public class Stone {
         System.out.println("Stones vary in composition, hardness, and appearance.");
         System.out.println("Examples include granite, marble, limestone, and sandstone.");
         System.out.println("Stones are prized for their durability and natural beauty.");
+        System.out.println("\n");
     }
 }

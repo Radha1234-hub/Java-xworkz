@@ -6,5 +6,13 @@ public class GameRunner {
         game.gameDetails();
 
         Chess chess = new Chess();
-        chess.gameDetails();}
+        chess.gameDetails();
+
+        Game ref = new Chess();
+        ref.gameDetails();
+
+        Chess downcasted = (Chess) ref;
+        downcasted.gameDetails();
+
+    }
 }

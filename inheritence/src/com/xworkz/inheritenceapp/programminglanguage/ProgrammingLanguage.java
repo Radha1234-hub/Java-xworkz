@@ -7,5 +7,6 @@ public class ProgrammingLanguage {
         System.out.println("Java is platform-independent, thanks to the Java Virtual Machine (JVM).");
         System.out.println("It is used for web applications, mobile apps, enterprise systems, and more.");
         System.out.println("Famous for its 'Write Once, Run Anywhere' philosophy, Java is incredibly popular.");
+        System.out.println("\n");
     }
 }

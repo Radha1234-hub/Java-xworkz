@@ -7,5 +7,6 @@ public class Galaxy {
         System.out.println("They are home to billions of stars and solar systems.");
         System.out.println("The Milky Way is a spiral galaxy, and it is our home galaxy.");
         System.out.println("Galaxies are part of the universe, which contains billions of galaxies.");
+        System.out.println("\n");
     }
 }

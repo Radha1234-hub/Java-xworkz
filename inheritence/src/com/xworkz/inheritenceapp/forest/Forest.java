@@ -7,5 +7,6 @@ public class Forest {
         System.out.println("Forests provide oxygen, store carbon, and regulate the Earth's climate.");
         System.out.println("Examples include the Amazon Rainforest, Congo Rainforest, and Taiga Forest.");
         System.out.println("Forests are home to countless species of flora and fauna.");
+        System.out.println("\n");
     }
 }

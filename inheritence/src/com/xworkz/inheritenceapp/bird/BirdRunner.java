@@ -6,5 +6,13 @@ public class BirdRunner {
         bird.birdDetails();
 
         Eagle eagle = new Eagle();
-        eagle.birdDetails();}
+        eagle.birdDetails();
+
+        Bird ref = new Eagle();
+        ref.birdDetails();
+
+        Eagle downcasted = (Eagle) ref;
+        downcasted.birdDetails();
+
+    }
 }

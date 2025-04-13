@@ -6,5 +6,13 @@ public class CartoonRunner {
         cartoon.cartoonDetails();
 
         Doremon doremon = new Doremon();
-        doremon.cartoonDetails();}
-}
+        doremon.cartoonDetails();
+
+    Cartoon ref = new Doremon();
+    ref.cartoonDetails();
+
+        Doremon downcasted = (Doremon) ref;
+        downcasted.cartoonDetails();
+
+
+}}

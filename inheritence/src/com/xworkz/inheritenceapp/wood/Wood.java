@@ -7,5 +7,6 @@ public class Wood {
         System.out.println("Wood is valued for its strength, versatility, and aesthetic appeal.");
         System.out.println("Common types of wood used in furniture include teak, oak, and pine.");
         System.out.println("Proper care and treatment can extend the lifespan of wooden furniture.");
+        System.out.println("\n");
     }
 }

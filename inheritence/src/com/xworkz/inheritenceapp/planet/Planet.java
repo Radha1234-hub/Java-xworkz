@@ -10,6 +10,7 @@ public class Planet {
                 System.out.println("Massive but Non-Luminous: Planets are large enough to have their own gravity but do not emit their own light like stars.");
                 System.out.println("Axial Rotation: Planets rotate on their axes, leading to day-night cycles.");
                 System.out.println("Diverse Surfaces: Planetary surfaces vary, with features like mountains, valleys, water bodies, or craters depending on the planet.");
+        System.out.println("\n");
     }}
 
 

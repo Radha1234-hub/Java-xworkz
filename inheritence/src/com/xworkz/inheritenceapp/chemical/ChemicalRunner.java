@@ -7,5 +7,11 @@ public class ChemicalRunner {
 
         Soap soap = new Soap();
         soap.chemicalDetails();
+
+        Chemical ref = new Soap();
+        ref.chemicalDetails();
+
+        Soap downcasted = (Soap) ref;
+        downcasted.chemicalDetails();
     }
 }

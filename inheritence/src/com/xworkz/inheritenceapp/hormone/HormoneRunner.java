@@ -8,6 +8,13 @@ public class HormoneRunner {
 
         Insulin insulin = new Insulin();
         insulin.hormoneDetails();
+
+        Hormone ref = new Insulin();
+        ref.hormoneDetails();
+
+        Insulin downcasted = (Insulin) ref;
+        downcasted.hormoneDetails();
+
     }
 
 }

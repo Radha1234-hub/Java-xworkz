@@ -7,5 +7,6 @@ public class Vegetable {
         System.out.println("Vegetables come in various types, such as leafy, root, and fruit vegetables.");
         System.out.println("Examples include carrots, spinach, tomatoes, and potatoes.");
         System.out.println("They can be consumed raw, cooked, or processed into various dishes.");
+        System.out.println("\n");
     }
 }

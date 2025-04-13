@@ -7,5 +7,6 @@ public class Leather {
         System.out.println("Leather shoes are known for their durability, flexibility, and timeless style.");
         System.out.println("Genuine leather shoes require proper care, such as cleaning and polishing, for longevity.");
         System.out.println("They are often used in formal, casual, and occupational settings.");
+        System.out.println("\n");
     }
 }

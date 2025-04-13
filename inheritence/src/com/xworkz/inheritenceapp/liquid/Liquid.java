@@ -7,5 +7,6 @@ public class Liquid {
         System.out.println("Water is a common and essential liquid that supports life.");
         System.out.println("It is used for drinking, cleaning, cooking, and countless other purposes.");
         System.out.println("Liquids like water can exist in other states such as solid (ice) and gas (steam).");
+        System.out.println("\n");
     }
 }

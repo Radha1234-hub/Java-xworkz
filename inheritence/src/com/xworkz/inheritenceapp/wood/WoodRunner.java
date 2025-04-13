@@ -7,5 +7,15 @@ public class WoodRunner {
 
         Table table = new Table();
         table.woodDetails();
+
+        Wood ref = new Table();
+        ref.woodDetails();
+
+        Table downcasted = (Table) ref;
+        downcasted.woodDetails();
+
+
+
+
     }
 }

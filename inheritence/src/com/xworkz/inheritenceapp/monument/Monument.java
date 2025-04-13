@@ -7,5 +7,6 @@ public class Monument {
         System.out.println("Examples include the Taj Mahal, Eiffel Tower, and Statue of Liberty.");
         System.out.println("Monuments are constructed using various materials like marble, stone, and metal.");
         System.out.println("They preserve history and inspire future generations.");
+        System.out.println("\n");
     }
 }

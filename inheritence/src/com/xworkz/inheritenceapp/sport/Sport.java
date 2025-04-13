@@ -8,5 +8,6 @@ public class Sport {
         System.out.println("The game consists of batting, bowling, and fielding.");
         System.out.println("Cricket matches can be Test, ODI, or T20 formats.");
         System.out.println("Strategy and teamwork play a crucial role in cricket.");
+        System.out.println("\n");
     }
 }

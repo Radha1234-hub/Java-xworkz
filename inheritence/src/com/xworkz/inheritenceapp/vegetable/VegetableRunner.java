@@ -7,6 +7,13 @@ public class VegetableRunner {
 
         Potato potato = new Potato();
         potato.vegetableDetails();
+
+        Vegetable ref = new Potato();
+        ref.vegetableDetails();
+
+        Potato downcasted = (Potato) ref;
+        downcasted.vegetableDetails();
+
     }
 
 }

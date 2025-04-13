@@ -7,5 +7,6 @@ public class Machine {
         System.out.println("They consist of hardware components like CPU, memory, and storage.");
         System.out.println("Computers are used in various fields such as education, healthcare, and business.");
         System.out.println("They revolutionize technology and enhance productivity in modern life.");
+        System.out.println("\n");
     }
 }

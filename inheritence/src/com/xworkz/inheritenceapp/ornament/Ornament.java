@@ -7,5 +7,6 @@ public class Ornament {
         System.out.println("Earrings are a popular type of ornament worn on the ears.");
         System.out.println("They come in various styles, such as studs, hoops, and danglers.");
         System.out.println("Ornaments are cherished for their cultural, sentimental, and aesthetic value.");
+        System.out.println("\n");
     }
 }

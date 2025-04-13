@@ -7,5 +7,6 @@ public class Bird {
         System.out.println("Birds are known for their ability to fly, although some species are flightless.");
         System.out.println("Examples include eagles, sparrows, penguins, and ostriches.");
         System.out.println("Birds contribute to pollination, seed dispersal, and maintaining ecological balance.");
+        System.out.println("\n");
     }
 }

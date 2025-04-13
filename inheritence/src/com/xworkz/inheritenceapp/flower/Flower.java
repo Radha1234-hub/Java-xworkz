@@ -7,5 +7,6 @@ public class Flower {
         System.out.println("Reproductive Structures: Flowers house the reproductive organs of plants.");
         System.out.println("Delicate: Flowers are soft and delicate in texture.");
         System.out.println("Seasonal: Most flowers bloom in specific seasons depending on their species.");
+        System.out.println("\n");
     }
 }

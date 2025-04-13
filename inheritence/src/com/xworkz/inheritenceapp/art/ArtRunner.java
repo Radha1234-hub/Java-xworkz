@@ -7,5 +7,11 @@ public class ArtRunner {
 
         Painting painting = new Painting();
         painting.artDetails();
+
+        Art ref = new Painting();
+        ref.artDetails();
+
+        Painting downcasted = (Painting) ref;
+        downcasted.artDetails();
     }
 }
