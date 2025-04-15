@@ -9,4 +9,20 @@ public class Cartoon {
         System.out.println("Cartoons can convey humor, life lessons, and cultural values.");
         System.out.println("\n");
     }
-}
+
+    public void cartoonCharacters() {
+        System.out.println("Cartoons often feature memorable characters with unique traits.");
+    }
+
+    public void cartoonPurpose() {
+        System.out.println("Cartoons aim to entertain, educate, or convey important messages.");
+    }
+
+    public void cartoonGenres() {
+        System.out.println("Cartoons can be comedic, adventurous, educational, or action-packed.");
+    }
+
+    public void cartoonHistory() {
+        System.out.println("Cartoons have a long history, evolving from hand-drawn animations to digital productions.");
+    }
+    }

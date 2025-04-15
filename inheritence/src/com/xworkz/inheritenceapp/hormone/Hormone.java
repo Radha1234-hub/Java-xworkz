@@ -9,4 +9,20 @@ public class Hormone {
         System.out.println("Maintaining hormonal balance is essential for overall health.");
         System.out.println("\n");
     }
-}
+
+    public void hormoneFunctions() {
+        System.out.println("Functions: Hormones regulate metabolism, growth, immune responses, and reproduction.");
+    }
+
+    public void hormoneTypes() {
+        System.out.println("Types: Hormones include steroid hormones, peptide hormones, and amine hormones.");
+    }
+
+    public void hormoneProduction() {
+        System.out.println("Production: Hormones are produced by glands such as the thyroid, adrenal, and pancreas.");
+    }
+
+    public void hormoneImbalance() {
+        System.out.println("Imbalance: Hormonal imbalance can lead to health issues such as diabetes or thyroid disorders.");
+
+    }}

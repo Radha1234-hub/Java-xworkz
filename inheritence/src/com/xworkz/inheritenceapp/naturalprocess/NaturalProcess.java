@@ -9,4 +9,19 @@ public class NaturalProcess {
         System.out.println("Photosynthesis occurs mainly in the leaves of plants.");
         System.out.println("\n");
     }
+    public void chemicalReaction() {
+        System.out.println("Photosynthesis involves converting sunlight into chemical energy stored as glucose.");
+    }
+
+    public void oxygenRelease() {
+        System.out.println("Photosynthesis releases oxygen as a by-product, which is essential for life.");
+    }
+
+    public void plantGrowth() {
+        System.out.println("Photosynthesis provides energy for plant growth and development.");
+    }
+
+    public void ecologicalImportance() {
+        System.out.println("Photosynthesis maintains the balance of oxygen and carbon dioxide in the atmosphere.");
+    }
 }

@@ -4,16 +4,32 @@ public class InsectRunner {
 
 
         public static void main(String[] args) {
-            Inscet insect = new Inscet();
-            insect.insectDetails();
+            // Creating a copy of the parent class and invoking 5 methods
+            Inscet inscet = new Inscet();
+            inscet.insectDetails();
+            inscet.inscetRole();
+            inscet.inscetDiversity();
+            inscet.inscetFeatures();
+            inscet.inscetSurvival();
 
-            ButterFly butterfly = new ButterFly();
-            butterfly.insectDetails();
+            System.out.println("\n");
 
+            // Creating a copy of the subclass using parent reference type and invoking 5 methods
             Inscet ref = new ButterFly();
             ref.insectDetails();
+            ref.inscetRole();
+            ref.inscetDiversity();
+            ref.inscetFeatures();
+            ref.inscetSurvival();
 
-            ButterFly downcasted = (ButterFly) ref;
-            downcasted.insectDetails();
+            System.out.println("\n");
+
+            // Creating a copy of the subclass using subclass reference type and invoking 5 methods
+            ButterFly butterfly = new ButterFly();
+            butterfly.insectDetails();
+            butterfly.butterflyWings();
+            butterfly.butterflyLifeCycle();
+            butterfly.butterflyPollination();
+            butterfly.butterflyHabitat();
         }
     }

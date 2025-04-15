@@ -9,4 +9,19 @@ public class Leather {
         System.out.println("They are often used in formal, casual, and occupational settings.");
         System.out.println("\n");
     }
+    public void materialDetails() {
+        System.out.println("Leather is a natural material derived from animal hide.");
+    }
+
+    public void maintenanceTips() {
+        System.out.println("Polish and clean leather regularly to maintain its quality.");
+    }
+
+    public void usageDetails() {
+        System.out.println("Leather shoes are used in both formal and casual settings.");
+    }
+
+    public void manufacturingProcess() {
+        System.out.println("Leather undergoes tanning to become flexible and durable.");
+    }
 }

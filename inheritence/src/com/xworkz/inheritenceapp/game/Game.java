@@ -9,4 +9,19 @@ public class Game {
         System.out.println("Games often foster teamwork, strategic thinking, and creativity.");
         System.out.println("\n");
     }
-}
+    public void gameTypes() {
+        System.out.println("Games can be categorized into indoor, outdoor, video games, and board games.");
+    }
+
+    public void gamePurpose() {
+        System.out.println("Games are used for relaxation, education, fitness, and professional competitions.");
+    }
+
+    public void gameSkills() {
+        System.out.println("Playing games improves cognitive, motor, and strategic skills.");
+    }
+
+    public void gameHistory() {
+        System.out.println("Games have been a part of human civilization for centuries, evolving over time.");
+
+    }}

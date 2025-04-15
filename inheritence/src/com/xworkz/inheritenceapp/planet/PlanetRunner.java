@@ -5,15 +5,28 @@ public class PlanetRunner {
 
         Planet planet = new Planet();
         planet.planetDetails();
+        planet.planetaryAtmosphere();
+        planet.gravityForce();
+        planet.planetaryTemperature();
+        planet.rotationPeriod();
 
-        Earth earth = new Earth();
-        earth.planetDetails();
+        System.out.println("\n");
 
         Planet ref = new Earth();
         ref.planetDetails();
+        ref.planetaryAtmosphere();
+        ref.gravityForce();
+        ref.planetaryTemperature();
+        ref.rotationPeriod();
 
-        Earth downcasted = (Earth) ref;
-        downcasted.planetDetails();
+        System.out.println("\n");
+
+        Earth earth = new Earth();
+        earth.planetDetails();
+        earth.lifeSupport();
+        earth.magneticField();
+        earth.waterPresence();
+        earth.biodiversity();
 
     }
 }

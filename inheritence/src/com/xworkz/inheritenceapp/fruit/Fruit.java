@@ -9,4 +9,20 @@ public class Fruit {
         System.out.println("Fruits contribute to a healthy and balanced diet.");
         System.out.println("\n");
     }
-}
+    public void fruitNutrients() {
+        System.out.println("Fruits are rich in essential vitamins, minerals, and antioxidants.");
+    }
+
+    public void fruitVarieties() {
+        System.out.println("Fruits are classified into berries, citrus, drupes, pomes, and melons.");
+    }
+
+    public void fruitBenefits() {
+        System.out.println("Fruits promote digestion, improve immunity, and boost energy levels.");
+    }
+
+    public void fruitCultivation() {
+        System.out.println("Fruits are cultivated in orchards and farms under favorable climate conditions.");
+
+
+    }}

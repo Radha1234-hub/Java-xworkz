@@ -9,4 +9,19 @@ public class River {
         System.out.println("Rivers are often culturally and spiritually significant to communities.");
         System.out.println("\n");
     }
+    public void freshwaterSource() {
+        System.out.println("Rivers are a major source of freshwater, essential for survival.");
+    }
+
+    public void riverEcosystem() {
+        System.out.println("Rivers support diverse ecosystems and species.");
+    }
+
+    public void agriculturalSupport() {
+        System.out.println("Rivers provide water for irrigation, supporting agriculture.");
+    }
+
+    public void culturalSignificance() {
+        System.out.println("Rivers are significant in culture and spirituality in many communities.");
+    }
 }

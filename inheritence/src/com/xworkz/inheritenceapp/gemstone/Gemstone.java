@@ -9,4 +9,19 @@ public class Gemstone {
         System.out.println("Gemstones hold cultural and symbolic significance in many societies.");
         System.out.println("\n");
     }
-}
+    public void gemstoneFormation() {
+        System.out.println("Gemstones are formed deep within the Earth's crust under high pressure and temperature.");
+    }
+
+    public void gemstoneCategories() {
+        System.out.println("Gemstones are categorized as precious (e.g., diamonds, rubies) and semi-precious (e.g., amethyst, topaz).");
+    }
+
+    public void gemstoneUses() {
+        System.out.println("Gemstones are used in jewelry, as ornaments, and in industrial applications.");
+    }
+
+    public void gemstoneCare() {
+        System.out.println("Gemstones require careful cleaning and storage to maintain their luster and value.");
+    }
+    }

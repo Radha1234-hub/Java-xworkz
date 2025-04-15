@@ -4,14 +4,31 @@ public class AmphibianRunner {
     public static void main(String[] args) {
         Amphibian amphibian = new Amphibian();
         amphibian.amphibianDetails();
+        amphibian.liveInWater();
+        amphibian.liveOnLand();
+        amphibian.regulateTemperature();
+        amphibian.ecosystemIndicators();
 
         Frog frog = new Frog();
         frog.amphibianDetails();
+        frog.frogSound();
+        frog.jump();
+        frog.camouflage();
+        frog.layEggs();
 
-        Amphibian crocodile = new Frog();
-        crocodile.amphibianDetails();
+        Amphibian amphibianReference = new Frog();
+        amphibianReference.amphibianDetails();
+        amphibianReference.liveInWater();
+        amphibianReference.liveOnLand();
+        amphibianReference.regulateTemperature();
+        amphibianReference.ecosystemIndicators();
 
-        Frog downcasted = (Frog) crocodile;
-        downcasted.amphibianDetails();
+        Frog downcastedFrog = (Frog) amphibianReference;
+        downcastedFrog.amphibianDetails();
+        downcastedFrog.frogSound();
+        downcastedFrog.jump();
+        downcastedFrog.camouflage();
+        downcastedFrog.layEggs();
     }
-}
+    }
+

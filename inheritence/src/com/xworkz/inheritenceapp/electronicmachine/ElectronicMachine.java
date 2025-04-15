@@ -9,4 +9,19 @@ public class ElectronicMachine {
         System.out.println("Electronic machines have revolutionized industries and modern life.");
         System.out.println("\n");
     }
+    public void powerConsumption() {
+        System.out.println("Electronic machines consume electricity to perform their tasks.");
+    }
+
+    public void functionality() {
+        System.out.println("Electronic machines are designed for efficiency and speed in specific tasks.");
+    }
+
+    public void components() {
+        System.out.println("Key components include circuits, microchips, and software.");
+    }
+
+    public void industrialApplications() {
+        System.out.println("Electronic machines play a critical role in industries like healthcare and manufacturing.");
+    }
 }

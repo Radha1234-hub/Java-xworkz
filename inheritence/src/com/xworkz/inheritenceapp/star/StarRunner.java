@@ -4,17 +4,28 @@ public class StarRunner {
     public static void main(String[] args) {
         Star star = new Star();
         star.starDetails();
+        star.fusionProcess();
+        star.lifeCycle();
+        star.constellationFormation();
+        star.stellarTemperature();
 
-        Sun sun = new Sun();
-        sun.starDetails();
-
+        System.out.println("\n");
 
         Star ref = new Sun();
         ref.starDetails();
+        ref.fusionProcess();
+        ref.lifeCycle();
+        ref.constellationFormation();
+        ref.stellarTemperature();
 
-        Sun downcasted = (Sun) ref;
-        downcasted.starDetails();
+        System.out.println("\n");
 
+        Sun sun = new Sun();
+        sun.starDetails();
+        sun.solarSystemSupport();
+        sun.energyRadiation();
+        sun.sunspots();
+        sun.solarFlareImpact();
 
     }
 }

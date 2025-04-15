@@ -9,4 +9,21 @@ public class Monument {
         System.out.println("They preserve history and inspire future generations.");
         System.out.println("\n");
     }
+
+
+public void historicalSignificance() {
+    System.out.println("Monuments are vital reminders of history and culture.");
+}
+
+public void architecturalFeatures() {
+    System.out.println("Monuments often showcase unique and grand architectural designs.");
+}
+
+public void culturalImportance() {
+    System.out.println("Monuments reflect the traditions and values of a society.");
+}
+
+public void touristAttraction() {
+    System.out.println("Monuments attract tourists from all over the world.");
+}
 }

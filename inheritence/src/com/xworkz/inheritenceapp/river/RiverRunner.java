@@ -4,15 +4,28 @@ public class RiverRunner {
     public static void main(String[] args) {
         River river = new River();
         river.riverDetails();
+        river.freshwaterSource();
+        river.riverEcosystem();
+        river.agriculturalSupport();
+        river.culturalSignificance();
 
-        Ganga ganga = new Ganga();
-        ganga.riverDetails();
+        System.out.println("\n");
 
         River ref = new Ganga();
         ref.riverDetails();
+        ref.freshwaterSource();
+        ref.riverEcosystem();
+        ref.agriculturalSupport();
+        ref.culturalSignificance();
 
-        Ganga downcasted = (Ganga) ref;
-        downcasted.riverDetails();
+        System.out.println("\n");
+
+        Ganga ganga = new Ganga();
+        ganga.riverDetails();
+        ganga.gangaPurification();
+        ganga.gangaBasin();
+        ganga.gangaFestivals();
+        ganga.gangaEnvironmentalChallenges();
 
     }
 }

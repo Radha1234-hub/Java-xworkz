@@ -9,4 +9,18 @@ public class Tree {
         System.out.println("Examples include oak, mango, neem, and pine trees.");
         System.out.println("\n");
     }
-}
+    public void treeGrowth() {
+        System.out.println("Trees grow through photosynthesis, using sunlight, water, and nutrients.");
+    }
+
+    public void environmentalImpact() {
+        System.out.println("Trees reduce carbon dioxide levels and help combat climate change.");
+    }
+
+    public void biodiversitySupport() {
+        System.out.println("Trees provide shelter and food for a variety of animals and insects.");
+    }
+
+    public void medicinalProperties() {
+        System.out.println("Many trees, such as neem, have medicinal properties used in traditional medicine.");
+}}

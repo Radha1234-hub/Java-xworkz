@@ -4,15 +4,28 @@ public class StoneRunner {
     public static void main(String[] args) {
         Stone stone = new Stone();
         stone.stoneDetails();
+        stone.stoneFormation();
+        stone.stoneTypes();
+        stone.stoneApplications();
+        stone.stoneDurability();
 
-        Granite granite = new Granite();
-        granite.stoneDetails();
+        System.out.println("\n");
 
         Stone ref = new Granite();
         ref.stoneDetails();
+        ref.stoneFormation();
+        ref.stoneTypes();
+        ref.stoneApplications();
+        ref.stoneDurability();
 
-        Granite downcasted = (Granite) ref;
-        downcasted.stoneDetails();
+        System.out.println("\n");
+
+        Granite granite = new Granite();
+        granite.stoneDetails();
+        granite.graniteAppearance();
+        granite.graniteUses();
+        granite.graniteProperties();
+        granite.graniteMaintenance();
 
 
     }

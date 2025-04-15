@@ -4,15 +4,28 @@ public class OrnamentRunner {
     public static void main(String[] args) {
         Ornament ornament = new Ornament();
         ornament.ornamentDetails();
+        ornament.materialUsed();
+        ornament.culturalSignificance();
+        ornament.styleVariety();
+        ornament.maintenanceTips();
 
-        Earrings earrings = new Earrings();
-        earrings.ornamentDetails();
+        System.out.println("\n");
 
         Ornament ref = new Earrings();
         ref.ornamentDetails();
+        ref.materialUsed();
+        ref.culturalSignificance();
+        ref.styleVariety();
+        ref.maintenanceTips();
 
-        Earrings downcasted = (Earrings) ref;
-        downcasted.ornamentDetails();
+        System.out.println("\n");
+
+        Earrings earrings = new Earrings();
+        earrings.ornamentDetails();
+        earrings.earringTypes();
+        earrings.materialsSpecificToEarrings();
+        earrings.earCare();
+        earrings.trendFocus();
 
 
     }

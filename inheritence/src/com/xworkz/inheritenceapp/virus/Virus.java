@@ -11,5 +11,20 @@ public class Virus {
             System.out.println("Resistance to Treatments: Certain viruses, like those causing the common cold, can resist antiviral drugs, making their management more challenging.");
         System.out.println("\n");
         }
+
+    public void transmissionMode() {
+        System.out.println("Viruses spread through air, water, direct contact, or vectors like insects.");
     }
 
+    public void replicationProcess() {
+        System.out.println("Viruses replicate by injecting their genetic material into host cells.");
+    }
+
+    public void preventionMethods() {
+        System.out.println("Prevention includes vaccinations, hygiene practices, and avoiding contact with infected individuals.");
+    }
+
+    public void globalImpact() {
+        System.out.println("Viruses can lead to pandemics, affecting global health and economies.");
+    }
+}

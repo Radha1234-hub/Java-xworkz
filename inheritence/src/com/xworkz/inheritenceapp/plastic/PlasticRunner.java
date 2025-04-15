@@ -5,16 +5,28 @@ public class PlasticRunner {
 
         Plastic plastic = new Plastic();
         plastic.propertyOfPlastic();
+        plastic.plasticUses();
+        plastic.plasticDisposal();
+        plastic.heatResistance();
+        plastic.plasticInnovation();
 
-
-        Bottle bottle = new Bottle();
-        bottle.propertyOfPlastic();
+        System.out.println("\n");
 
         Plastic ref = new Bottle();
         ref.propertyOfPlastic();
+        ref.plasticUses();
+        ref.plasticDisposal();
+        ref.heatResistance();
+        ref.plasticInnovation();
 
-        Bottle downcasted = (Bottle) ref;
-        downcasted.propertyOfPlastic();
+        System.out.println("\n");
+
+        Bottle bottle = new Bottle();
+        bottle.propertyOfPlastic();
+        bottle.bottleDesigns();
+        bottle.reusableBottles();
+        bottle.bottleRecycling();
+        bottle.bottleMaterials();
 
     }
 

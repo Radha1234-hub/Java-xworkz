@@ -4,15 +4,28 @@ public class WoodRunner {
     public static void main(String[] args) {
         Wood wood = new Wood();
         wood.woodDetails();
+        wood.woodProperties();
+        wood.woodProcessing();
+        wood.furnitureUses();
+        wood.ecoBenefits();
 
-        Table table = new Table();
-        table.woodDetails();
+        System.out.println("\n");
 
         Wood ref = new Table();
         ref.woodDetails();
+        ref.woodProperties();
+        ref.woodProcessing();
+        ref.furnitureUses();
+        ref.ecoBenefits();
 
-        Table downcasted = (Table) ref;
-        downcasted.woodDetails();
+        System.out.println("\n");
+
+        Table table = new Table();
+        table.woodDetails();
+        table.tableTypes();
+        table.tableMaterials();
+        table.tableDesigns();
+        table.tableCareTips();
 
 
 

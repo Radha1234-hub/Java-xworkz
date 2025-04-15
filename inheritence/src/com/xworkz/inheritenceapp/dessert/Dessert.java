@@ -9,4 +9,19 @@ public class Dessert {
         System.out.println("Desserts hold a special place in celebrations and gatherings.");
         System.out.println("\n");
     }
-}
+    public void dessertIngredients() {
+        System.out.println("Common ingredients include sugar, flour, dairy, and fruits.");
+    }
+
+    public void dessertTypes() {
+        System.out.println("Desserts come in many types like cakes, ice creams, pies, and puddings.");
+    }
+
+    public void dessertOccasions() {
+        System.out.println("Desserts are a highlight of celebrations like birthdays and weddings.");
+    }
+
+    public void dessertSignificance() {
+        System.out.println("Desserts bring joy and create memorable moments in gatherings.");
+
+    }}

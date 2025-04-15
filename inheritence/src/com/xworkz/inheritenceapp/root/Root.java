@@ -9,4 +9,19 @@ public class Root {
         System.out.println("Roots also store food and water for plants, ensuring their survival.");
         System.out.println("\n");
     }
+    public void absorbWater() {
+        System.out.println("Roots absorb water and minerals from the soil to support plant life.");
+    }
+
+    public void storeNutrients() {
+        System.out.println("Roots store nutrients and energy for the plant's future use.");
+    }
+
+    public void provideSupport() {
+        System.out.println("Roots anchor the plant to the soil, providing stability and support.");
+    }
+
+    public void promoteSoilHealth() {
+        System.out.println("Roots contribute to soil health by preventing erosion and enriching the soil.");
+    }
 }

@@ -9,4 +9,19 @@ public class Machine {
         System.out.println("They revolutionize technology and enhance productivity in modern life.");
         System.out.println("\n");
     }
+    public void powerOn() {
+        System.out.println("The machine is powered on.");
+    }
+
+    public void performTask() {
+        System.out.println("The machine is performing its designated task.");
+    }
+
+    public void maintenance() {
+        System.out.println("Regular maintenance is necessary for optimal performance.");
+    }
+
+    public void powerOff() {
+        System.out.println("The machine is powered off.");
+    }
 }

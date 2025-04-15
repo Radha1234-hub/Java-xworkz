@@ -11,5 +11,26 @@ public class Actor {
         System.out.println("\n");
 
 
+
+    }
+
+    public void actorDetail() {
+        System.out.println("An actor is a person who portrays characters in films, television, or theater.");
+    }
+
+    public void performRole() {
+        System.out.println("Actors perform roles with emotional depth and creativity.");
+    }
+
+    public void attendAuditions() {
+        System.out.println("Actors attend auditions to secure roles.");
+    }
+
+    public void rehearseDialogues() {
+        System.out.println("Actors rehearse their dialogues to perfect their delivery.");
+    }
+
+    public void receiveAwards() {
+        System.out.println("Actors receive awards in recognition of their exceptional performances.");
     }
 }

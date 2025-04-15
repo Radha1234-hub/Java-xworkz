@@ -9,4 +9,19 @@ public class Forest {
         System.out.println("Forests are home to countless species of flora and fauna.");
         System.out.println("\n");
     }
-}
+    public void forestImportance() {
+        System.out.println("Forests help in reducing the greenhouse effect by absorbing carbon dioxide.");
+    }
+
+    public void forestTypes() {
+        System.out.println("Forests are classified into types such as tropical, temperate, and boreal.");
+    }
+
+    public void forestResources() {
+        System.out.println("Forests provide timber, medicinal plants, fruits, and other resources.");
+    }
+
+    public void forestThreats() {
+        System.out.println("Deforestation, climate change, and illegal logging threaten forest ecosystems.");
+
+    }}

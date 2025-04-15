@@ -9,4 +9,20 @@ public class Bird {
         System.out.println("Birds contribute to pollination, seed dispersal, and maintaining ecological balance.");
         System.out.println("\n");
     }
+
+    public void birdMovement() {
+        System.out.println("Most birds can fly, but some species are flightless.");
+    }
+
+    public void birdHabitat() {
+        System.out.println("Birds are found in diverse habitats, including forests, wetlands, deserts, and urban areas.");
+    }
+
+    public void birdDiet() {
+        System.out.println("Birds feed on seeds, insects, fish, or other small animals, depending on the species.");
+    }
+
+    public void birdCommunication() {
+        System.out.println("Birds communicate through songs, calls, and visual displays.");
+    }
 }

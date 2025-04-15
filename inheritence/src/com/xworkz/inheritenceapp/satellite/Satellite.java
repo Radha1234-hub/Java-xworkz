@@ -9,4 +9,19 @@ public class Satellite {
         System.out.println("Examples include the Earth's Moon, Io (Jupiter's moon), and Hubble Space Telescope.");
         System.out.println("\n");
     }
-}
+    public void orbitType() {
+        System.out.println("Satellites can orbit in geostationary, polar, or elliptical patterns.");
+    }
+
+    public void signalTransmission() {
+        System.out.println("Artificial satellites transmit signals for communication and navigation.");
+    }
+
+    public void scientificResearch() {
+        System.out.println("Satellites help conduct research on planetary surfaces and space phenomena.");
+    }
+
+    public void energySource() {
+        System.out.println("Satellites use solar panels or batteries as their primary energy source.");
+
+    }}

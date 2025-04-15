@@ -2,17 +2,31 @@ package com.xworkz.inheritenceapp.machine;
 
 public class MachineRunner {
     public static void main(String[] args) {
-        Machine computer = new Machine();
-        computer.machineDetails();
 
-        Computer ref= new Computer();
-        ref.machineDetails();
+                Machine machine = new Machine();
+                machine.machineDetails();
+                machine.powerOn();
+                machine.performTask();
+                machine.maintenance();
+                machine.powerOff();
 
-        Machine ref1 = new Computer();
-        ref1.machineDetails();
+                System.out.println("\n");
 
-        Computer downcasted = (Computer) ref1;
-        downcasted.machineDetails();
+                Machine ref = new Computer();
+                ref.machineDetails();
+                ref.powerOn();
+                ref.performTask();
+                ref.maintenance();
+                ref.powerOff();
+
+                System.out.println("\n");
+
+                Computer computer = new Computer();
+                computer.machineDetails();
+                computer.executeProgram();
+                computer.storeData();
+                computer.connectToInternet();
+                computer.shutDown();
 
     }
 }

@@ -4,15 +4,28 @@ public class RootRunner {
     public static void main(String[] args) {
         Root root = new Root();
         root.rootDetails();
+        root.absorbWater();
+        root.storeNutrients();
+        root.provideSupport();
+        root.promoteSoilHealth();
 
-        Carrot carrot = new Carrot();
-        carrot.rootDetails();
+        System.out.println("\n");
 
         Root ref = new Carrot();
         ref.rootDetails();
+        ref.absorbWater();
+        ref.storeNutrients();
+        ref.provideSupport();
+        ref.promoteSoilHealth();
 
-        Carrot downcasted = (Carrot) ref;
-        downcasted.rootDetails();
+        System.out.println("\n");
+
+        Carrot carrot = new Carrot();
+        carrot.rootDetails();
+        carrot.nutritionalValue();
+        carrot.culinaryUses();
+        carrot.growthConditions();
+        carrot.storageTips();
 
 
     }

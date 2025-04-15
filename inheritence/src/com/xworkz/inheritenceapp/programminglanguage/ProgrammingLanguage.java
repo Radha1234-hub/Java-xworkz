@@ -9,4 +9,19 @@ public class ProgrammingLanguage {
         System.out.println("Famous for its 'Write Once, Run Anywhere' philosophy, Java is incredibly popular.");
         System.out.println("\n");
     }
+    public void languageSyntax() {
+        System.out.println("Java syntax is similar to C and C++, making it easy for developers to learn.");
+    }
+
+    public void memoryManagement() {
+        System.out.println("Java uses automatic garbage collection to manage memory effectively.");
+    }
+
+    public void developmentTools() {
+        System.out.println("Java is supported by robust tools like Eclipse and IntelliJ IDEA.");
+    }
+
+    public void multiThreading() {
+        System.out.println("Java provides built-in support for multithreading to develop efficient applications.");
+    }
 }

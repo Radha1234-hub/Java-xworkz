@@ -9,4 +9,20 @@ public class Chemical {
         System.out.println("Understanding chemical properties is essential for safe handling and usage.");
         System.out.println("\n");
     }
-}
+
+    public void chemicalUses() {
+        System.out.println("Chemicals are used in cleaning, medicine, agriculture, and manufacturing.");
+    }
+
+    public void chemicalTypes() {
+        System.out.println("There are organic and inorganic chemicals based on their composition.");
+    }
+
+    public void chemicalSafety() {
+        System.out.println("Proper handling and storage of chemicals prevent accidents and hazards.");
+    }
+
+    public void chemicalSignificance() {
+        System.out.println("Chemicals are crucial for scientific advancements and daily life applications.");
+    }
+    }

@@ -9,4 +9,19 @@ public class Wood {
         System.out.println("Proper care and treatment can extend the lifespan of wooden furniture.");
         System.out.println("\n");
     }
+    public void woodProperties() {
+        System.out.println("Wood is durable, renewable, and offers insulation properties.");
+    }
+
+    public void woodProcessing() {
+        System.out.println("Wood undergoes processes like seasoning and cutting before use in products.");
+    }
+
+    public void furnitureUses() {
+        System.out.println("Wood is used to create tables, chairs, cabinets, and decorative items.");
+    }
+
+    public void ecoBenefits() {
+        System.out.println("Wood is eco-friendly and sustainable when sourced responsibly.");
+    }
 }

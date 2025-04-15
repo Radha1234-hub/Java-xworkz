@@ -9,4 +9,20 @@ public class Stationery {
         System.out.println("Stationery products often come in eco-friendly and reusable options to reduce waste.");
         System.out.println("\n");
     }
-}
+    public void stationeryTypes() {
+        System.out.println("Stationery includes items like pens, pencils, markers, and staplers.");
+    }
+
+    public void usesInEducation() {
+        System.out.println("Stationery is indispensable for students in schools, colleges, and universities.");
+    }
+
+    public void creativeApplications() {
+        System.out.println("Stationery is widely used in art, design, and creative projects.");
+    }
+
+    public void ecoFriendlyOptions() {
+        System.out.println("Eco-friendly stationery options include recycled paper and biodegradable pens.");
+    }}
+
+

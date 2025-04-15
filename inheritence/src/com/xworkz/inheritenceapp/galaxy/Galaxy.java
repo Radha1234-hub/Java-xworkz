@@ -8,5 +8,21 @@ public class Galaxy {
         System.out.println("The Milky Way is a spiral galaxy, and it is our home galaxy.");
         System.out.println("Galaxies are part of the universe, which contains billions of galaxies.");
         System.out.println("\n");
+
     }
-}
+    public void galaxyShapes() {
+        System.out.println("Galaxies come in shapes like spiral, elliptical, and irregular.");
+    }
+
+    public void galaxyComponents() {
+        System.out.println("Galaxies contain stars, planets, black holes, nebulae, and interstellar matter.");
+    }
+
+    public void galaxySize() {
+        System.out.println("Galaxies vary in size, ranging from a few thousand to millions of light-years across.");
+    }
+
+    public void galaxyCount() {
+        System.out.println("The universe contains an estimated two trillion galaxies.");
+
+    }}

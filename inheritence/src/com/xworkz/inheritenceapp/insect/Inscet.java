@@ -9,4 +9,21 @@ public class Inscet {
         System.out.println("Insects play vital roles in pollination, decomposition, and the food chain.");
         System.out.println("\n");
     }
+
+    public void inscetRole() {
+        System.out.println("Inscets play critical roles in pollination, soil aeration, and decomposition.");
+    }
+
+    public void inscetDiversity() {
+        System.out.println("There are millions of inscet species, making them the most diverse animal group.");
+    }
+
+    public void inscetFeatures() {
+        System.out.println("Inscets typically have exoskeletons, compound eyes, and specialized mouthparts.");
+    }
+
+    public void inscetSurvival() {
+        System.out.println("Inscets adapt to various environments, from deserts to tropical forests.");
+
+    }
 }

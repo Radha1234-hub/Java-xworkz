@@ -10,4 +10,19 @@ public class Organ {
         System.out.println("Organs work collaboratively within organ systems, such as the digestive or respiratory systems.");
         System.out.println("\n");
     }
+    public void organFunctions() {
+        System.out.println("Each organ performs unique functions to maintain homeostasis.");
+    }
+
+    public void organTypes() {
+        System.out.println("Organs are categorized as internal and external.");
+    }
+
+    public void organComposition() {
+        System.out.println("Organs are composed of specialized tissues working together.");
+    }
+
+    public void organInteraction() {
+        System.out.println("Organs interact with each other to form organ systems.");
+    }
 }

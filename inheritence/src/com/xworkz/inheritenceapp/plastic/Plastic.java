@@ -10,4 +10,19 @@ public class Plastic {
         System.out.println("Flexibility: Plastics can be molded into various shapes and forms, from rigid containers to flexible films.");
         System.out.println("\n");
     }
+    public void plasticUses() {
+        System.out.println("Plastics are used in packaging, construction, and medical equipment.");
+    }
+
+    public void plasticDisposal() {
+        System.out.println("Improper disposal of plastics can lead to environmental pollution.");
+    }
+
+    public void heatResistance() {
+        System.out.println("Some plastics have heat resistance, making them suitable for high-temperature applications.");
+    }
+
+    public void plasticInnovation() {
+        System.out.println("Innovative plastics are being developed to be biodegradable and eco-friendly.");
+    }
 }

@@ -2,17 +2,30 @@ package com.xworkz.inheritenceapp.organ;
 
 public class OrganRunner {
     public static void main(String[] args) {
-    Organ organ = new Organ();
-    organ.organDetails();
+        Organ organ = new Organ();
+        organ.organDetails();
+        organ.organFunctions();
+        organ.organTypes();
+        organ.organComposition();
+        organ.organInteraction();
 
-    Heart heart = new Heart();
-    heart.organDetails();
+        System.out.println("\n");
 
-    Organ ref = new Heart();
-    ref.organDetails();
+        Organ ref = new Heart();
+        ref.organDetails();
+        ref.organFunctions();
+        ref.organTypes();
+        ref.organComposition();
+        ref.organInteraction();
 
-        Heart downcasted = (Heart) ref;
-        downcasted.organDetails();
+        System.out.println("\n");
+
+        Heart heart = new Heart();
+        heart.organDetails();
+        heart.heartStructure();
+        heart.bloodCirculation();
+        heart.heartBeat();
+        heart.heartHealth();
 
 
 

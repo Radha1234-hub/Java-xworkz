@@ -9,4 +9,19 @@ public class Glass {
         System.out.println("Glass can be manufactured in different forms, such as tempered, laminated, or stained glass.");
         System.out.println("\n");
     }
-}
+    public void glassTypes() {
+        System.out.println("Glass types include tempered glass, laminated glass, and stained glass.");
+    }
+
+    public void glassProperties() {
+        System.out.println("Glass properties include transparency, durability, and resistance to corrosion.");
+    }
+
+    public void glassUses() {
+        System.out.println("Glass is used in windows, doors, mirrors, and various decorative items.");
+    }
+
+    public void glassRecyclability() {
+        System.out.println("Glass is recyclable and can be reused without compromising quality.");
+
+    }}

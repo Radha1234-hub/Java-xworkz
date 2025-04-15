@@ -9,4 +9,21 @@ public class Stone {
         System.out.println("Stones are prized for their durability and natural beauty.");
         System.out.println("\n");
     }
+
+
+public void stoneFormation() {
+    System.out.println("Stones are formed through natural geological processes over millions of years.");
+}
+
+public void stoneTypes() {
+    System.out.println("Types of stones include igneous, sedimentary, and metamorphic rocks.");
+}
+
+public void stoneApplications() {
+    System.out.println("Stones are widely used in construction, art, and landscaping.");
+}
+
+public void stoneDurability() {
+    System.out.println("Stones like granite and marble are known for their exceptional durability.");
+}
 }
