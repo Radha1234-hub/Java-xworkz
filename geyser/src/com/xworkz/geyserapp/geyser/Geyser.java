@@ -1,5 +1,11 @@
 package com.xworkz.geyserapp.geyser;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+
 public class Geyser {
 
     private int geyserId;
@@ -11,6 +17,7 @@ public class Geyser {
     private int geyserWarranty;
     private String geyserSafetyFeatures;
 
+    /*
     // geyserId
     public void setGeyserId(int geyserId) {
         this.geyserId = geyserId;
@@ -81,5 +88,5 @@ public class Geyser {
 
     public String getGeyserSafetyFeatures() {
         return geyserSafetyFeatures;
-    }
+    }*/
 }

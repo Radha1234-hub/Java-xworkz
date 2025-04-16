@@ -1,5 +1,11 @@
 package com.xworkz.mobilecaseapp.mobilecase;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Setter
+@Getter
+
 public class MobileCase {
 
     private int mobileCaseId;
@@ -10,6 +16,7 @@ public class MobileCase {
     private String mobileCaseBrand;
     private String mobileCaseWeight;
 
+    /*
     // mobileCaseId
     public void setMobileCaseId(int mobileCaseId) {
         this.mobileCaseId = mobileCaseId;
@@ -71,5 +78,5 @@ public class MobileCase {
 
     public String getMobileCaseWeight() {
         return mobileCaseWeight;
-    }
+    }*/
 }

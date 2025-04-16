@@ -1,6 +1,12 @@
 
 package com.xworkz.simcardapp.simcard;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+
 public class SimCard {
 
     private int simCardId;
@@ -11,6 +17,7 @@ public class SimCard {
     private String simCardValidity;
     private String simCardCountry;
 
+    /*
     // simCardId
     public void setSimCardId(int simCardId) {
         this.simCardId = simCardId;
@@ -72,5 +79,5 @@ public class SimCard {
 
     public String getSimCardCountry() {
         return simCardCountry;
-    }
+    }*/
 }

@@ -1,5 +1,11 @@
 package com.xworkz.shirtapp.shirt;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+
 public class Shirt {
 
     private int shirtId;
@@ -10,6 +16,7 @@ public class Shirt {
     private String shirtSleeveLength;
     private double shirtPrice;
 
+    /*
     //shirtId
     public void setShirtId(int shirtId){
         this.shirtId = shirtId;
@@ -77,5 +84,5 @@ public class Shirt {
 
     public double getShirtPrice() {
         return shirtPrice;
-    }
+    }*/
 }

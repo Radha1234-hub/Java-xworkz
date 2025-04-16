@@ -1,5 +1,11 @@
 package com.xworkz.mattressapp.mattress;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+
 public class Mattress {
 
     private int mattressId;
@@ -9,7 +15,7 @@ public class Mattress {
     private String mattressThickness;
     private String mattressType;
     private String mattressBrand;
-
+/*
     // mattressId
     public void setMattressId(int mattressId) {
         this.mattressId = mattressId;
@@ -71,5 +77,5 @@ public class Mattress {
 
     public String getMattressBrand() {
         return mattressBrand;
-    }
+    }*/
 }

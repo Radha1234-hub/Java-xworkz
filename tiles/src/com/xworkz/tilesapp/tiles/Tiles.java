@@ -1,5 +1,11 @@
 package com.xworkz.tilesapp.tiles;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+
 public class Tiles {
 
     private int tileId;
@@ -11,6 +17,7 @@ public class Tiles {
     private String tileThickness;
     private String tilePurpose;
 
+    /*
     // tileId
     public void setTileId(int tileId) {
         this.tileId = tileId;
@@ -81,5 +88,5 @@ public class Tiles {
 
     public String getTilePurpose() {
         return tilePurpose;
-    }
+    }*/
 }

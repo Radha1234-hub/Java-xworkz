@@ -1,5 +1,11 @@
 package com.xworkz.cookerapp.cooker;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Setter
+@Getter
+
 public class Cooker {
 
     private int cookerId;
@@ -11,6 +17,7 @@ public class Cooker {
     private int cookerPressureLevel;
     private String cookerSafetyFeatures;
 
+    /*
     // cookerId
     public void setCookerId(int cookerId) {
         this.cookerId = cookerId;
@@ -81,5 +88,5 @@ public class Cooker {
 
     public String getCookerSafetyFeatures() {
         return cookerSafetyFeatures;
-    }
+    }*/
 }

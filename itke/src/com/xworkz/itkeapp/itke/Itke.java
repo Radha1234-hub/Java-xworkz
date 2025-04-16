@@ -1,5 +1,11 @@
 package com.xworkz.itkeapp.itke;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+
 public class Itke {
 
     private String itkeBrand;
@@ -9,7 +15,7 @@ public class Itke {
     private int itkeWidth;
     private int itkeHeight;
     private String itkePurpose;
-
+/*
     // itkeBrand
     public void setItkeBrand(String itkeBrand) {
         this.itkeBrand = itkeBrand;
@@ -71,5 +77,5 @@ public class Itke {
 
     public String getItkePurpose() {
         return itkePurpose;
-    }
+    }*/
 }

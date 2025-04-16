@@ -1,5 +1,11 @@
 package com.xworkz.festivalapp.festival;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Setter
+@Getter
+
 public class Festival {
 
     private String festivalName;
@@ -10,6 +16,7 @@ public class Festival {
     private String festivalRituals;
     private String festivalDuration;
 
+  /*
     // festivalName
     public void setFestivalName(String festivalName) {
         this.festivalName = festivalName;
@@ -71,5 +78,5 @@ public class Festival {
 
     public String getFestivalDuration() {
         return festivalDuration;
-    }
+    }*/
 }

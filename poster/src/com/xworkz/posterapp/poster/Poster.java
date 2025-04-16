@@ -1,5 +1,11 @@
 package com.xworkz.posterapp.poster;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+
 public class Poster {
 
     private int posterId;
@@ -8,7 +14,7 @@ public class Poster {
     private String posterLength;
     private String posterWidth;
     private String posterPurpose;
-
+/*
     //posterId
     public void setPosterId(int posterId){
         this.posterId = posterId;
@@ -61,7 +67,7 @@ public class Poster {
 
     public String getPosterPurpose(){
         return posterPurpose;
-    }
+    }*/
 
 
 }

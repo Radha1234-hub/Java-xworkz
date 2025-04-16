@@ -1,5 +1,11 @@
 package com.xworkz.markerapp.marker;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+
 public class Marker {
 
     private int markerId;
@@ -10,7 +16,7 @@ public class Marker {
     private String markerInkType;
     private String markerLength;
     private String markerPurpose;
-
+/*
     //markerId
 
     public void setMarkerId(int markerId) {
@@ -89,5 +95,5 @@ public class Marker {
 
     public String getMarkerPurpose() {
         return markerPurpose;
-    }
+    }*/
 }

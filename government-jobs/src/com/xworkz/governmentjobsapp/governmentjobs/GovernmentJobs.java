@@ -1,5 +1,11 @@
 package com.xworkz.governmentjobsapp.governmentjobs;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+
 public class GovernmentJobs {
 
     private int minimumAge;
@@ -10,6 +16,7 @@ public class GovernmentJobs {
     private String physicalStandards;
     private String job;
 
+    /*
     // minimumAge
     public void setMinimumAge(int minimumAge) {
         this.minimumAge = minimumAge;
@@ -71,5 +78,5 @@ public class GovernmentJobs {
 
     public String getJob() {
         return job;
-    }
+    }*/
 }

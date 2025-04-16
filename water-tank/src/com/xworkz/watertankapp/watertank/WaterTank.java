@@ -1,4 +1,10 @@
-package com.xworkz.tankapp.tank;
+package com.xworkz.watertankapp.watertank;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 
 public class WaterTank {
 
@@ -10,6 +16,7 @@ public class WaterTank {
     private String tankHeight;
     private String tankDiameter;
 
+    /*
     // tankId
     public void setTankId(int tankId) {
         this.tankId = tankId;
@@ -71,5 +78,5 @@ public class WaterTank {
 
     public String getTankDiameter() {
         return tankDiameter;
-    }
+    }*/
 }

@@ -1,5 +1,12 @@
 package com.xworkz.chalkapp.chalk;
 
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+
 public class Chalk {
 
     private int chalkId;
@@ -9,8 +16,9 @@ public class Chalk {
     private String chalkColor;
     private String chalkType;
     private String chalkPurpose;
-
-    // chalkId
+}
+/*
+//     chalkId
     public void setChalkId(int chalkId) {
         this.chalkId = chalkId;
     }
@@ -72,4 +80,4 @@ public class Chalk {
     public String getChalkPurpose() {
         return chalkPurpose;
     }
-}
+}*/

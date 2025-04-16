@@ -1,5 +1,11 @@
 package com.xworkz.constitutionapp.constitution;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+
 public class Constitution {
 
     private int constitutionId;
@@ -10,6 +16,7 @@ public class Constitution {
     private String constitutionPublisher;
     private String constitutionYear;
 
+    /*
     // constitutionId
     public void setConstitutionId(int constitutionId) {
         this.constitutionId = constitutionId;
@@ -71,5 +78,5 @@ public class Constitution {
 
     public String getConstitutionYear() {
         return constitutionYear;
-    }
+    }*/
 }

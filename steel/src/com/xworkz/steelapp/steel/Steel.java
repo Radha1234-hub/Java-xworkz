@@ -1,5 +1,11 @@
 package com.xworkz.steelapp.steel;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+
 public class Steel {
 
     private int steelId;
@@ -10,6 +16,7 @@ public class Steel {
     private double steelThickness;
     private String steelApplication;
 
+    /*
     //steelId
     public void setSteelId(int steelId){
         this.steelId =steelId;
@@ -74,5 +81,5 @@ public class Steel {
 
     public String getSteelApplication() {
         return steelApplication;
-    }
+    }*/
 }

@@ -8,7 +8,7 @@ public class PassportSeva {
         boolean isUserRegistered = false;
 
         boolean userValidated = validateUser(passportDto);
-        if(userValidated == true)
+        if(userValidated)
             isUserRegistered = true;
         else System.out.println("User in not register...! try again later");
         return isUserRegistered;
@@ -150,7 +150,7 @@ public class PassportSeva {
 
 
 
-        if(surNameValid == true && isCpvLocation == true && isDcdrLocation == true && isGivenName == true && isDod == true && isEmailId == true && isEmailLoginSame==true && isLoginId ==true && isPassWord == true && isConfirmPassWord == true && isHintQues == true && isHintAns== true && isCaptcha == true)
+        if(surNameValid && isCpvLocation == true && isDcdrLocation == true && isGivenName == true && isDod == true && isEmailId == true && isEmailLoginSame==true && isLoginId ==true && isPassWord == true && isConfirmPassWord == true && isHintQues == true && isHintAns== true && isCaptcha == true)
                 userValidated = true;
 
             return userValidated;
